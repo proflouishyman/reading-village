@@ -1,0 +1,7 @@
+{
+ "enabled": false,
+ "auto": false,
+ "repo": "YOUR-GITHUB-USER/YOUR-REPO",
+ "branch": "main",
+ "work_dir": "build/web-repo"
+}

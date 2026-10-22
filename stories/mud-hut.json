@@ -1,0 +1,811 @@
+{
+  "v": 1,
+  "id": "mud-hut",
+  "title": "Sam and the Mud Hut",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "u",
+    "d",
+    "p"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad had a job.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 28
+          },
+          {
+            "who": "dad",
+            "x": 58
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 58,
+            "y": "held"
+          },
+          {
+            "what": "stone",
+            "x": 76
+          },
+          {
+            "what": "dirt",
+            "x": 88
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was to get a hut.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22
+          },
+          {
+            "who": "dad",
+            "x": 44
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 78
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"I can dig,\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 36
+          },
+          {
+            "who": "hero",
+            "x": 70,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 36,
+            "y": "held"
+          },
+          {
+            "what": "dirt",
+            "x": 88
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I can dig.",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug and dug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "pose": "dig",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 50,
+            "y": "held",
+            "angle": 65
+          },
+          {
+            "what": "dirt",
+            "x": 82
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "dig dig",
+            "near": "dad",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug a big pit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 52,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 52,
+            "scale": 1.3
+          },
+          {
+            "what": "dirt",
+            "x": 86
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Mud!\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 52,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 52,
+            "scale": 1.3
+          },
+          {
+            "what": "mud",
+            "x": 80,
+            "scale": 1.2
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mud!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam got the mud.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 28
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 32,
+            "y": "held",
+            "scale": 0.7
+          }
+        ],
+        "fx": "mud_splat"
+      }
+    },
+    {
+      "text": "Dad got the mud.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 34,
+            "y": "held",
+            "scale": 0.7
+          }
+        ],
+        "fx": "mud_splat"
+      }
+    },
+    {
+      "text": "Pat, pat, pat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 26
+          },
+          {
+            "who": "dad",
+            "x": 74,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 50,
+            "scale": 1.1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "pat, pat, pat",
+            "near": "mud"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It is a mud hut!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 36,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 78
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"Yes!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 40
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 78
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yes!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then a Creeper ran up.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 31
+          },
+          {
+            "who": "creeper",
+            "x": 58,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 85,
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 31
+          },
+          {
+            "who": "creeper",
+            "x": 58,
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 85,
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "creeper"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Run, Dad!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "run",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "creeper",
+            "x": 84,
+            "flip": true
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Run, Dad!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad did not run. Dad sat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "run"
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "sit_on",
+            "flip": true,
+            "on": "log1"
+          },
+          {
+            "who": "creeper",
+            "x": 86,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 50,
+            "id": "log1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is a hug!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "sit_on",
+            "on": "log1"
+          },
+          {
+            "who": "creeper",
+            "x": 70,
+            "flip": true
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is a hug!",
+            "near": "hero",
+            "style": "say"
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 40,
+            "id": "log1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad did a big hug.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 62,
+            "pose": "hug",
+            "flip": true
+          },
+          {
+            "who": "dad",
+            "x": 38,
+            "pose": "hug"
+          },
+          {
+            "who": "hero",
+            "x": 12
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "BOOM!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 66,
+            "pose": "fall",
+            "scale": 0.75
+          },
+          {
+            "who": "creeper",
+            "x": 40,
+            "id": "creeper"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "boom",
+            "near": "creeper"
+          },
+          {
+            "fx": "text",
+            "text": "BOOM!",
+            "near": "creeper"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad was up, up, up!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 58,
+            "pose": "up",
+            "scale": 0.85
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "up, up, up!",
+            "near": "dad",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad hit the mud.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20
+          },
+          {
+            "who": "dad",
+            "x": 62,
+            "pose": "upside_down",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 84
+          }
+        ],
+        "fx": "mud_splat"
+      }
+    },
+    {
+      "text": "SPLAT!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22
+          },
+          {
+            "who": "dad",
+            "x": 58,
+            "pose": "lying"
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 86
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "SPLAT!",
+            "near": "dad"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad is a mud pig!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 56,
+            "pose": "in",
+            "scale": 0.8,
+            "in": "mud1"
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 56,
+            "scale": 2.4,
+            "id": "mud1"
+          },
+          {
+            "what": "mud",
+            "x": 56,
+            "y": "head",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "oink, oink",
+            "near": "dad",
+            "side": "right"
+          },
+          "mud_splat"
+        ]
+      }
+    },
+    {
+      "text": "\"Not a hug!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 58,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 25
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 58,
+            "y": "head"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not a hug!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Mud, mud, mud!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22
+          },
+          {
+            "who": "dad",
+            "x": 58,
+            "flip": true
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 58,
+            "y": "head"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mud, mud, mud!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper had a mud hug!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 60,
+            "pose": "hug",
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "hug",
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 14,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 60,
+            "y": "head",
+            "scale": 0.6
+          },
+          {
+            "what": "mud",
+            "x": 40,
+            "y": "head",
+            "scale": 0.6
+          }
+        ],
+        "fx": "mud_splat"
+      }
+    }
+  ]
+}

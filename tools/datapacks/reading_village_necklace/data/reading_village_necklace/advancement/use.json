@@ -1,0 +1,11 @@
+{
+  "criteria": {
+    "used": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": { "predicates": { "minecraft:custom_data": "{reading_village_necklace:1b}" } }
+      }
+    }
+  },
+  "rewards": { "function": "reading_village_necklace:use" }
+}

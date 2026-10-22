@@ -1,0 +1,971 @@
+{
+  "v": 1,
+  "id": "mama-lighthouse",
+  "title": "Mama and the Big Lamp",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "b",
+    "d"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam sat on a ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then a fog sat on the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a big fog.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "air",
+            "scale": 1.3
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "air",
+            "scale": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yuck!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yuck!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The ship went and went.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Stop, ship!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Stop, ship!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a bell.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "bell",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "Clang, clang, clang!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "bell",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Clang!",
+            "near": "mama"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A big rock sat in the fog.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "stone",
+            "x": 88,
+            "y": "water",
+            "scale": 1.2
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the rock!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "stone",
+            "x": 88,
+            "y": "water",
+            "scale": 1.2
+          },
+          {
+            "what": "cloud",
+            "x": 24,
+            "y": "water",
+            "scale": 2.0
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the rock!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a torch.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "torch",
+            "x": 64,
+            "y": "held",
+            "by": "c",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam lit the torch.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 20,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "water",
+            "scale": 1.5
+          },
+          {
+            "what": "torch",
+            "x": 64,
+            "y": "held",
+            "by": "c",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "Then a lamp lit up!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 24,
+            "y": "water",
+            "scale": 2.0
+          },
+          {
+            "what": "lighthouse",
+            "x": 86,
+            "id": "lh",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "lh"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a big, big lamp!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "lighthouse",
+            "x": 84,
+            "id": "lh",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "lh"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Look, Mama!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "lighthouse",
+            "x": 86,
+            "id": "lh",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Look, Mama!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama did a quick job on the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "lighthouse",
+            "x": 86,
+            "id": "lh",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "Past the rock they went.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "lighthouse",
+            "x": 14,
+            "id": "lh",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "The lamp lit up the fog.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "lighthouse",
+            "x": 14,
+            "id": "lh",
+            "scale": 0.7
+          },
+          {
+            "what": "cloud",
+            "x": 88,
+            "y": "water",
+            "scale": 1.2
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "lh"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam saw the sand.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a big hug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 44,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A big lamp is a big help!\" said Mama.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A big lamp is a big help!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a big grin.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ]
+      }
+    }
+  ]
+}

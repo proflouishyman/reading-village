@@ -1,0 +1,1183 @@
+{
+  "v": 1,
+  "id": "fox-lunch",
+  "title": "Sam and the Fox",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "m",
+    "n",
+    "u"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad had lunch.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25,
+            "scale": 0.9
+          },
+          {
+            "who": "dad",
+            "x": 55,
+            "flip": true,
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 84
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had a ham bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22
+          },
+          {
+            "who": "dad",
+            "x": 58
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 58,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a jam bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 26
+          },
+          {
+            "who": "dad",
+            "x": 66,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 26,
+            "y": "held"
+          },
+          {
+            "what": "bun",
+            "x": 66,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yum, yum, yum!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 26
+          },
+          {
+            "who": "dad",
+            "x": 66,
+            "flip": true,
+            "id": "dad"
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 66,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yum, yum, yum!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then a fox sat on a log.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 36,
+            "scale": 0.8
+          },
+          {
+            "who": "fox",
+            "x": 80,
+            "pose": "sit_on",
+            "on": "log",
+            "flip": true,
+            "scale": 0.7
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 80,
+            "id": "log"
+          },
+          {
+            "what": "bun",
+            "x": 12,
+            "y": "held"
+          },
+          {
+            "what": "bun",
+            "x": 36,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox had a grin.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.7
+          },
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.7
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "sit_on",
+            "on": "log",
+            "flip": true,
+            "scale": 1.0,
+            "id": "fox"
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 72,
+            "id": "log"
+          },
+          {
+            "what": "bun",
+            "x": 10,
+            "y": "held"
+          },
+          {
+            "what": "bun",
+            "x": 30,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "fox"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Look, a fox!\" said Sam.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "pose": "jump",
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 46
+          },
+          {
+            "who": "fox",
+            "x": 82,
+            "pose": "sit_on",
+            "on": "log",
+            "flip": true,
+            "scale": 0.7
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 82,
+            "id": "log"
+          },
+          {
+            "what": "bun",
+            "x": 46,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Look, a fox!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Grab! The fox got the ham bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 36,
+            "scale": 0.8
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "run",
+            "scale": 0.65
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "GRAB!",
+            "near": "fox"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Stop, fox!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "pose": "run",
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "run",
+            "scale": 0.8,
+            "id": "dad"
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "run",
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Stop, fox!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox ran.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 45,
+            "pose": "run",
+            "scale": 0.85
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 85
+          },
+          {
+            "what": "bun",
+            "x": 45,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad ran. Sam ran.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 38,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "run",
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox ran past a rock.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 66,
+            "pose": "run",
+            "scale": 0.85
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 28,
+            "id": "rock"
+          },
+          {
+            "what": "bun",
+            "x": 66,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A Creeper sat on the rock.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "run",
+            "scale": 0.65
+          },
+          {
+            "who": "creeper",
+            "x": 28,
+            "pose": "sit_on",
+            "on": "rock"
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 28,
+            "id": "rock"
+          },
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 72,
+            "pose": "jump",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 54,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock",
+            "id": "cr"
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad ran past the rock.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock"
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "pose": "run"
+          },
+          {
+            "who": "hero",
+            "x": 54,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock",
+            "id": "cr"
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 54,
+            "pose": "jump",
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the Creeper!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock"
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 54,
+            "pose": "jump",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the Creeper!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam ran past the rock.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "run"
+          },
+          {
+            "who": "dad",
+            "x": 54,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISS... HISS... ACHOO!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 26,
+            "pose": "sit_on",
+            "on": "rock",
+            "id": "cr"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 86,
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 26,
+            "id": "rock"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sneeze",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox ran to the pond.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 35,
+            "pose": "run",
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 86
+          },
+          {
+            "what": "bun",
+            "x": 35,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Stop, fox!\" said Dad.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "dad"
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Stop, fox!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox did a big jump.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 50,
+            "pose": "jump",
+            "scale": 0.85
+          },
+          {
+            "who": "dad",
+            "x": 10,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 88
+          },
+          {
+            "what": "bun",
+            "x": 50,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "SPLASH!",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 44,
+            "pose": "upside_down",
+            "scale": 0.7
+          },
+          {
+            "who": "dad",
+            "x": 12,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "splash_big",
+            "x": 74,
+            "y": "water",
+            "id": "splash",
+            "scale": 1.2
+          },
+          {
+            "what": "bun",
+            "x": 90,
+            "y": "water",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "SPLASH!",
+            "near": "splash"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The ham bun was wet.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 22,
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 62,
+            "y": "water",
+            "id": "bun1",
+            "scale": 1.3
+          },
+          {
+            "what": "tree",
+            "x": 82
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "bun1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yuck!\" said the fox.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "fox",
+            "x": 72,
+            "pose": "sit",
+            "flip": true,
+            "id": "fox"
+          },
+          {
+            "who": "dad",
+            "x": 14,
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 42,
+            "y": "water"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yuck!",
+            "near": "fox",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Here, fox!\" said Sam.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "id": "c"
+          },
+          {
+            "who": "fox",
+            "x": 76,
+            "pose": "sit",
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 24,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Here, fox!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The fox had the jam bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "flip": true,
+            "scale": 0.85
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yum!\" said the fox.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "fox",
+            "x": 72,
+            "flip": true,
+            "scale": 0.85,
+            "id": "fox"
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yum!",
+            "near": "fox",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had the wet ham bun.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 15
+          },
+          {
+            "who": "dad",
+            "x": 55
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 55,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yuck!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 55,
+            "id": "dad"
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 55,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yuck!",
+            "near": "dad",
+            "style": "say"
+          },
+          {
+            "fx": "stink",
+            "near": "bun"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper ran to Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 80,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 15
+          },
+          {
+            "who": "creeper",
+            "x": 42,
+            "pose": "run",
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 80,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS! BOOM!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 42,
+            "id": "cr"
+          },
+          {
+            "who": "dad",
+            "x": 70,
+            "pose": "fall",
+            "flip": true,
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "boom",
+            "near": "cr"
+          },
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The ham bun sat on his hat.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22
+          },
+          {
+            "who": "dad",
+            "x": 62,
+            "pose": "sit"
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 62,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "bun",
+            "x": 62,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yuck!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25
+          },
+          {
+            "who": "dad",
+            "x": 54,
+            "pose": "sit",
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "fox",
+            "x": 84,
+            "pose": "sit",
+            "flip": true,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 54,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "bun",
+            "x": 54,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yuck!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    }
+  ]
+}

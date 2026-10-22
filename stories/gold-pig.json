@@ -1,0 +1,1315 @@
+{
+  "v": 1,
+  "id": "gold-pig",
+  "title": "Sam and the Gold Pig",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "d"
+  ],
+  "pages": [
+    {
+      "text": "Sam had a map.",
+      "art": "map"
+    },
+    {
+      "text": "The map had a red X.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 40,
+            "scale": 1.25
+          }
+        ],
+        "props": [
+          {
+            "what": "map",
+            "x": 40,
+            "y": "held"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"Gold!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "scale": 1
+          },
+          {
+            "who": "dad",
+            "x": 44,
+            "scale": 1
+          }
+        ],
+        "props": [
+          {
+            "what": "gold",
+            "x": 78
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Gold!",
+            "near": "dad",
+            "style": "say"
+          },
+          {
+            "fx": "sparkle",
+            "near": "gold"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Let's go!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 28,
+            "pose": "run",
+            "scale": 1
+          },
+          {
+            "who": "dad",
+            "x": 62,
+            "pose": "run",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Let's go!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam got his pick.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16
+          },
+          {
+            "who": "hero",
+            "x": 46
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 46,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad got a bow.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 20
+          },
+          {
+            "who": "hero",
+            "x": 66
+          }
+        ],
+        "props": [
+          {
+            "what": "bow",
+            "x": 45,
+            "scale": 1.15
+          },
+          {
+            "what": "pickaxe",
+            "x": 66,
+            "y": "held"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "A pig came too.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "flip": true,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 16,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "They went up a hill.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "pose": "run",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 16,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "They went into a cave.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "pose": "run",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 16,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was dark.",
+      "art": {
+        "bg": "dark_cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 16,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad lit a torch.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 46,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A bat flew past.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 38,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 62,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 38,
+            "y": "held"
+          },
+          {
+            "what": "bat",
+            "x": 84,
+            "y": "air"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then they saw a green mob.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 54,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 34,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 82
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a Creeper!",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 54,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 34,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 82
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"HISSSSS!\"",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 54,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 34,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 82
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSSS!",
+            "near": "creeper",
+            "size": 13
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"RUN!\" said Dad.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 38,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 60,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 38,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 86
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "RUN!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam ran.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 62,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 40,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 86
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad ran.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 64,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 40,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 88
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pig did not run.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 38,
+            "pose": "run",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 60,
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 38,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 82
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pig hit the Creeper.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 28,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 64,
+            "pose": "jump",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "torch",
+            "x": 28,
+            "y": "held"
+          },
+          {
+            "what": "creeper",
+            "x": 84
+          }
+        ],
+        "fx": "tap"
+      }
+    },
+    {
+      "text": "BOOM!",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 34,
+            "pose": "fall",
+            "flip": true,
+            "scale": 0.6
+          },
+          {
+            "who": "dad",
+            "x": 66,
+            "pose": "fall",
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "creeper",
+            "x": 50,
+            "id": "creeper"
+          }
+        ],
+        "fx": [
+          "boom",
+          {
+            "fx": "text",
+            "text": "BOOM!",
+            "near": "creeper",
+            "size": 16
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pig flew up!",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 30,
+            "pose": "fall",
+            "flip": true,
+            "scale": 0.6
+          },
+          {
+            "who": "dad",
+            "x": 72,
+            "pose": "fall",
+            "flip": true,
+            "scale": 0.6
+          },
+          {
+            "who": "gold_pig",
+            "x": 52,
+            "pose": "up",
+            "scale": 0.75
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "It fell in a pool.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 42,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "gold_pig",
+            "x": 72,
+            "y": "water",
+            "scale": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "text": "SPLASH!",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "jump",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "gold_pig",
+            "x": 66,
+            "y": "water",
+            "scale": 0.75,
+            "id": "pig"
+          },
+          {
+            "what": "splash_big",
+            "x": 66,
+            "y": "water"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "SPLASH!",
+            "near": "pig",
+            "size": 14
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"The pig is safe!\" said Sam.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 42,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 74,
+            "flip": true,
+            "scale": 0.75
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "The pig is safe!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then Sam saw the red X.",
+      "art": {
+        "bg": "pond",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 48,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 74,
+            "flip": true,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "map",
+            "x": 22,
+            "y": "held",
+            "scale": 0.7
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "It was on a wall.",
+      "art": {
+        "bg": "wall",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 58,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "x_mark",
+            "x": 86,
+            "scale": 1.2
+          }
+        ]
+      }
+    },
+    {
+      "text": "He hit the wall with his pick.",
+      "art": {
+        "bg": "wall",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 36,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 60,
+            "y": "held"
+          },
+          {
+            "what": "x_mark",
+            "x": 88,
+            "scale": 1.2
+          }
+        ]
+      }
+    },
+    {
+      "text": "TAP! TAP! TAP!",
+      "art": {
+        "bg": "wall",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 36,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 60,
+            "y": "held",
+            "angle": 80
+          },
+          {
+            "what": "x_mark",
+            "x": 88,
+            "scale": 1.2,
+            "id": "x"
+          }
+        ],
+        "fx": [
+          "tap",
+          {
+            "fx": "text",
+            "text": "TAP! TAP! TAP!",
+            "near": "x",
+            "side": "above"
+          }
+        ]
+      }
+    },
+    {
+      "text": "He saw a chest!",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 12,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 52,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 32,
+            "pose": "jump",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 80
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "He took off the lid.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 34,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 56,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 84,
+            "scale": 1.2
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CREEEAK!",
+            "near": "chest_open",
+            "size": 10
+          }
+        ]
+      }
+    },
+    {
+      "text": "In the chest was a gold hat.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 12,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 32,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 54,
+            "scale": 0.75
+          },
+          {
+            "who": "crown",
+            "x": 82,
+            "pose": "in",
+            "in": "chest"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 82,
+            "scale": 1.2,
+            "id": "chest"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "The pig put on the hat.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 58,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 86,
+            "scale": 1.2
+          },
+          {
+            "what": "crown",
+            "x": 58,
+            "y": "head",
+            "by": "gold_pig"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"Look!\" said Dad.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 42,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 74,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "crown",
+            "x": 74,
+            "y": "head",
+            "by": "gold_pig"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Look!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"The pig is a king!\"",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 42,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 74,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "crown",
+            "x": 74,
+            "y": "head",
+            "by": "gold_pig"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "The pig is a king!",
+            "near": "dad",
+            "style": "say"
+          },
+          {
+            "fx": "sparkle",
+            "near": "gold_pig"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pig sat on a big rock.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 42,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "pose": "sit_on",
+            "on": "rock",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 76,
+            "scale": 1.6,
+            "id": "rock"
+          },
+          {
+            "what": "crown",
+            "x": 76,
+            "y": "head",
+            "by": "gold_pig"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"OINK!\" said the pig.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 42,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 76,
+            "pose": "sit_on",
+            "on": "rock",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 76,
+            "scale": 1.6,
+            "id": "rock"
+          },
+          {
+            "what": "crown",
+            "x": 76,
+            "y": "head",
+            "by": "gold_pig"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "OINK!",
+            "near": "gold_pig",
+            "style": "say"
+          },
+          {
+            "fx": "sparkle",
+            "near": "gold_pig"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then it fell off.",
+      "art": {
+        "bg": "cave",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 8,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 27,
+            "pose": "jump",
+            "flip": true,
+            "scale": 0.75
+          },
+          {
+            "who": "gold_pig",
+            "x": 84,
+            "pose": "upside_down",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "stone",
+            "x": 50,
+            "scale": 1.6
+          },
+          {
+            "what": "crown",
+            "x": 68
+          }
+        ]
+      }
+    }
+  ]
+}

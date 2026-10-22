@@ -1,0 +1,977 @@
+{
+  "v": 1,
+  "id": "bed-and-bat",
+  "title": "Sam and the Bed",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "d"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad had a job.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 40
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 76
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was to get a bed.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 38
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 74
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"I can dig,\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 44
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 44,
+            "y": "held"
+          },
+          {
+            "what": "dirt",
+            "x": 82
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I can dig,",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug a big pit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 40
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 40,
+            "y": "held"
+          },
+          {
+            "what": "pit",
+            "x": 72
+          }
+        ],
+        "fx": "tap"
+      }
+    },
+    {
+      "text": "\"No, Dad!\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "id": "hero"
+          },
+          {
+            "who": "dad",
+            "x": 48,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 48,
+            "y": "held"
+          },
+          {
+            "what": "pit",
+            "x": 78
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "No, Dad!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A bed is not a pit!\"",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "id": "hero"
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 48
+          },
+          {
+            "what": "pit",
+            "x": 84
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A bed is not a pit!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad hid in the pit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 72,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 72
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam got a bag.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14
+          },
+          {
+            "who": "hero",
+            "x": 44
+          }
+        ],
+        "props": [
+          {
+            "what": "bag",
+            "x": 44,
+            "y": "held"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "In the bag was a red rug.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 86
+          }
+        ],
+        "props": [
+          {
+            "what": "bag",
+            "x": 56,
+            "id": "bag"
+          },
+          {
+            "what": "rug",
+            "x": 56,
+            "y": "on",
+            "on": "bag"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"Get the bits,\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14
+          },
+          {
+            "who": "hero",
+            "x": 42
+          }
+        ],
+        "props": [
+          {
+            "what": "wood",
+            "x": 42,
+            "y": "held"
+          },
+          {
+            "what": "stone",
+            "x": 80
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get the bits,",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad and Sam did the job.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 20,
+            "pose": "jump"
+          },
+          {
+            "who": "hero",
+            "x": 42,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "wood",
+            "x": 70
+          },
+          {
+            "what": "stone",
+            "x": 86
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "TAP! TAP! TAP!",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 15
+          },
+          {
+            "who": "hero",
+            "x": 34
+          }
+        ],
+        "props": [
+          {
+            "what": "wood",
+            "x": 78,
+            "id": "wood"
+          },
+          {
+            "what": "pickaxe",
+            "x": 34,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "TAP! TAP! TAP!",
+            "near": "wood"
+          },
+          {
+            "fx": "tap",
+            "near": "wood"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a bed!",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 88,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 52
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "It was dusk.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18
+          },
+          {
+            "who": "dad",
+            "x": 40
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 76
+          }
+        ]
+      }
+    },
+    {
+      "text": "A bat hid in the pit.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 54
+          },
+          {
+            "who": "bat",
+            "x": 31,
+            "pose": "in",
+            "in": "pit",
+            "scale": 1.2
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 31
+          },
+          {
+            "what": "bed",
+            "x": 80,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad got in the bed.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 68,
+            "pose": "lying",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 31,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 68,
+            "scale": 1.15
+          },
+          {
+            "what": "pit",
+            "x": 31
+          }
+        ]
+      }
+    },
+    {
+      "text": "The bat got in the bed.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "A big dog got in.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had no bed.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "pose": "sit"
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get up, bat!\" said Dad.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get up, bat!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The bat did not get up.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "ZZZ",
+            "near": "bat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The dog did not get up.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "pose": "sit"
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "ZZZ",
+            "near": "pup"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad did not get up.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "bat",
+            "x": 74,
+            "pose": "in",
+            "in": "bed",
+            "id": "bat",
+            "scale": 0.45
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit_on",
+            "on": "bed",
+            "id": "pup",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 66,
+            "id": "bed",
+            "scale": 1.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "ZZZ",
+            "near": "dad"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam dug a pit.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "id": "hero"
+          },
+          {
+            "who": "dad",
+            "x": 77,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 12,
+            "y": "held",
+            "by": "hero",
+            "angle": 70
+          },
+          {
+            "what": "pit",
+            "x": 38
+          },
+          {
+            "what": "bed",
+            "x": 78,
+            "id": "bed",
+            "scale": 0.92
+          }
+        ],
+        "fx": "tap"
+      }
+    },
+    {
+      "text": "He put the rug in it.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 30
+          },
+          {
+            "who": "rug",
+            "x": 66,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 66,
+            "id": "pit"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "He hid in the pit.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 56,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 56
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a big pit bed!",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 56,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 56
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "ZZZ",
+            "near": "hero"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Bed is best!",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "pose": "lying",
+            "id": "dad",
+            "in": "bed"
+          },
+          {
+            "who": "pup",
+            "x": 47,
+            "pose": "sit_on",
+            "on": "bed"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "in",
+            "id": "hero",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 30,
+            "id": "bed",
+            "scale": 1.0
+          },
+          {
+            "what": "bat",
+            "x": 22,
+            "y": "on",
+            "on": "dad",
+            "scale": 0.5
+          },
+          {
+            "what": "pit",
+            "x": 80
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Bed is best!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    }
+  ]
+}

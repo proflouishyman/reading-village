@@ -1,0 +1,7 @@
+<!doctype html>
+<!-- DEV-ONLY: renders one story page's art at 800x450 for tools/render_pages.py. Not linked from the game.
+     /render.html?story=ID  -> window.__render = { pages, repeats, draw(i), error } -->
+<html lang="en"><head><meta charset="utf-8"><title>render (dev)</title>
+<style>html,body{margin:0;background:#000}#scene{display:block;width:800px;height:450px;image-rendering:pixelated}</style>
+</head><body><canvas id="scene" width="192" height="108"></canvas>
+<script type="module" src="js/renderpage.js"></script></body></html>

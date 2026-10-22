@@ -1,0 +1,1138 @@
+{
+  "v": 1,
+  "id": "mama-witch",
+  "title": "Mama and the Witch Hat",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "d",
+    "b"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam met a witch.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ]
+      }
+    },
+    {
+      "text": "She was Peg.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ]
+      }
+    },
+    {
+      "text": "Peg had a hat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 50,
+            "y": "held",
+            "by": "witch",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama put it on.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Peg had a big pot.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Peg had a cat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Look in the pot!\" said Peg.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Look in the pot!",
+            "near": "witch",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Fizz, fizz, fizz!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          },
+          {
+            "what": "steam",
+            "x": 54,
+            "y": "air",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Fizz!",
+            "near": "pot"
+          }
+        ]
+      }
+    },
+    {
+      "text": "POP!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "air",
+            "scale": 0.8
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          },
+          {
+            "what": "bunny",
+            "x": 54,
+            "y": "air",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "POP!",
+            "near": "pot"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A bunny hopped out!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "air",
+            "scale": 0.8
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          },
+          {
+            "what": "bunny",
+            "x": 54,
+            "y": "ground",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "The hat went up, up, up!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 14,
+            "y": "air",
+            "scale": 0.8
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          },
+          {
+            "what": "bunny",
+            "x": 54,
+            "y": "ground",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"My hat!\" said Mama.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 14,
+            "y": "air",
+            "scale": 0.8
+          },
+          {
+            "what": "cauldron",
+            "x": 54,
+            "scale": 1.2,
+            "id": "pot"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          },
+          {
+            "what": "bunny",
+            "x": 54,
+            "y": "ground",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "My hat!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Hop on!\" said Peg.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 32,
+            "y": "held",
+            "by": "witch",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Hop on!",
+            "near": "witch",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam sat on it.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 55,
+            "pose": "sit_on",
+            "scale": 0.6,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "witch",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 69,
+            "pose": "sit_on",
+            "scale": 0.6,
+            "id": "c",
+            "flip": true,
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 62,
+            "y": "ground",
+            "scale": 1,
+            "id": "bm"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Zip, zip, zip!",
+      "art": {
+        "bg": "sky",
+        "actors": [
+          {
+            "who": "witch",
+            "x": 35,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "witch",
+            "on": "bm"
+          },
+          {
+            "who": "mama",
+            "x": 50,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "hero",
+            "x": 65,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "c",
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 50,
+            "y": "ground",
+            "scale": 2,
+            "id": "bm"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Zip!",
+            "near": "bm"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Up, up, up in the sky!",
+      "art": {
+        "bg": "sky",
+        "actors": [
+          {
+            "who": "witch",
+            "x": 35,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "witch",
+            "on": "bm"
+          },
+          {
+            "who": "mama",
+            "x": 50,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "hero",
+            "x": 65,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "c",
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 50,
+            "y": "ground",
+            "scale": 2,
+            "id": "bm"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The cat sat on the hat.",
+      "art": {
+        "bg": "sky",
+        "actors": [
+          {
+            "who": "witch",
+            "x": 35,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "witch",
+            "on": "bm"
+          },
+          {
+            "who": "mama",
+            "x": 50,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "hero",
+            "x": 65,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "c",
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 50,
+            "y": "ground",
+            "scale": 2,
+            "id": "bm"
+          },
+          {
+            "what": "witch_hat",
+            "x": 84,
+            "y": "air",
+            "scale": 0.7,
+            "id": "h"
+          },
+          {
+            "what": "black_cat",
+            "x": 84,
+            "y": "on",
+            "scale": 0.7,
+            "on": "h"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get the hat, cat!\" said Sam.",
+      "art": {
+        "bg": "sky",
+        "actors": [
+          {
+            "who": "witch",
+            "x": 35,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "witch",
+            "on": "bm"
+          },
+          {
+            "who": "mama",
+            "x": 50,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "hero",
+            "x": 65,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "c",
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 50,
+            "y": "ground",
+            "scale": 2,
+            "id": "bm"
+          },
+          {
+            "what": "witch_hat",
+            "x": 84,
+            "y": "air",
+            "scale": 0.7,
+            "id": "h"
+          },
+          {
+            "what": "black_cat",
+            "x": 84,
+            "y": "on",
+            "scale": 0.7,
+            "on": "h"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get the hat, cat!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama got the hat.",
+      "art": {
+        "bg": "sky",
+        "actors": [
+          {
+            "who": "witch",
+            "x": 35,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "witch",
+            "on": "bm"
+          },
+          {
+            "who": "mama",
+            "x": 50,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "mama",
+            "on": "bm"
+          },
+          {
+            "who": "hero",
+            "x": 65,
+            "pose": "sit_on",
+            "scale": 0.85,
+            "id": "c",
+            "on": "bm"
+          }
+        ],
+        "props": [
+          {
+            "what": "broom",
+            "x": 50,
+            "y": "ground",
+            "scale": 2,
+            "id": "bm"
+          },
+          {
+            "what": "witch_hat",
+            "x": 50,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "Down they went.",
+      "art": {
+        "bg": "hilltop",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The bunny sat on a log.",
+      "art": {
+        "bg": "hilltop",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "log",
+            "x": 58,
+            "scale": 1,
+            "id": "lg"
+          },
+          {
+            "what": "bunny",
+            "x": 58,
+            "y": "on",
+            "on": "lg",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yes, yes, yes!\" said Peg.",
+      "art": {
+        "bg": "hilltop",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yes, yes, yes!",
+            "near": "witch",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a big grin.",
+      "art": {
+        "bg": "hilltop",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 10,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "mama"
+          },
+          {
+            "who": "witch",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "witch"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "pose": "stand",
+            "scale": 0.75,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "witch_hat",
+            "x": 10,
+            "y": "head",
+            "by": "mama"
+          },
+          {
+            "what": "black_cat",
+            "x": 73,
+            "y": "ground",
+            "scale": 1
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+ "pools": [
+  {
+   "rolls": 1,
+   "entries": [
+    {
+     "type": "minecraft:item",
+     "name": "minecraft:heart_of_the_sea",
+     "modifier": [
+      {
+       "type": "minecraft:set_components",
+       "components": {
+        "minecraft:custom_name": {
+         "text": "Magic Necklace",
+         "color": "light_purple",
+         "italic": false
+        },
+        "minecraft:lore": [
+         {
+          "text": "Crouch while holding me to fly to the village shrine!",
+          "color": "gray",
+          "italic": false
+         }
+        ],
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:custom_data": {
+         "reading_village_necklace": true
+        },
+        "minecraft:max_stack_size": 1,
+        "minecraft:consumable": {
+         "consume_seconds": 0.2,
+         "animation": "none",
+         "has_consume_particles": false,
+         "sound": "minecraft:block.amethyst_block.chime"
+        },
+        "minecraft:use_remainder": {
+         "id": "minecraft:heart_of_the_sea",
+         "count": 1,
+         "components": {
+          "minecraft:custom_name": {
+           "text": "Magic Necklace",
+           "color": "light_purple",
+           "italic": false
+          },
+          "minecraft:lore": [
+           {
+            "text": "Crouch while holding me to fly to the village shrine!",
+            "color": "gray",
+            "italic": false
+           }
+          ],
+          "minecraft:enchantment_glint_override": true,
+          "minecraft:custom_data": {
+           "reading_village_necklace": true
+          },
+          "minecraft:max_stack_size": 1,
+          "minecraft:consumable": {
+           "consume_seconds": 0.2,
+           "animation": "none",
+           "has_consume_particles": false,
+           "sound": "minecraft:block.amethyst_block.chime"
+          }
+         }
+        }
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

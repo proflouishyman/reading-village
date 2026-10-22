@@ -1,0 +1,30 @@
+{
+ "b": {
+  "cue": "**b**at then **b**all — stick first, then the circle.",
+  "picture": "bed",
+  "bedNote": "Bed picture: the word *bed* — b is the headboard, d is the footboard."
+ },
+ "d": {
+  "cue": "**d**oughnut then **d**own — circle first, then the stick.",
+  "picture": "bed",
+  "bedNote": "Bed picture: the word *bed* — b is the headboard, d is the footboard."
+ },
+ "p": {
+  "cue": "**p**ush down, then the circle — stick goes down below the line."
+ },
+ "q": {
+  "cue": "**q**ueen's circle first, then the tail down — q is almost always with u."
+ },
+ "m": {
+  "cue": "**m**ountains — two humps on top."
+ },
+ "w": {
+  "cue": "**w**aves at the bottom — w is a valley."
+ },
+ "n": {
+  "cue": "**n**ose — one hump on top."
+ },
+ "u": {
+  "cue": "**u**p cup — open at the top, holds water."
+ }
+}

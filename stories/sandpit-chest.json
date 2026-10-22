@@ -1,0 +1,1310 @@
+{
+  "v": 1,
+  "id": "sandpit-chest",
+  "title": "Sam and the Junk Chest",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "d",
+    "n",
+    "p",
+    "b"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad had a sandpit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 28
+          },
+          {
+            "who": "dad",
+            "x": 62,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "sun",
+            "x": 88,
+            "y": "air"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Let us dig!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25
+          },
+          {
+            "who": "dad",
+            "x": 60,
+            "flip": true,
+            "id": "dad"
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "dad"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Let us dig!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dig, dig, dig!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25,
+            "pose": "dig",
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 62,
+            "pose": "dig",
+            "flip": true,
+            "id": "dad",
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "c"
+          },
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          }
+        ],
+        "fx": [
+          {
+            "fx": "tap",
+            "near": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sand went up and up.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "dig",
+            "id": "c",
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "pose": "dig",
+            "flip": true,
+            "id": "dad",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "c",
+            "scale": 0.85
+          },
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          },
+          {
+            "what": "sand",
+            "x": 38,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 50,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 60,
+            "y": "air",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "CLANG!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "dig",
+            "id": "c",
+            "scale": 0.85
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "c",
+            "scale": 0.85
+          },
+          {
+            "what": "chest",
+            "x": 52,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CLANG!",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"What is it?\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22,
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "What is it?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is a chest!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 76,
+            "flip": true,
+            "id": "dad"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 48,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is a chest!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug and dug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "dig",
+            "flip": true,
+            "id": "dad",
+            "scale": 0.85
+          },
+          {
+            "who": "hero",
+            "x": 86,
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          },
+          {
+            "what": "sand",
+            "x": 58,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 68,
+            "y": "air",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam dug and dug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 58,
+            "pose": "dig",
+            "id": "c",
+            "scale": 0.85
+          },
+          {
+            "who": "dad",
+            "x": 16,
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "c",
+            "scale": 0.85
+          },
+          {
+            "what": "sand",
+            "x": 82,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 92,
+            "y": "air",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had the chest.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 56,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 20
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I bet it has cash!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 56,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 20
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I bet it has cash!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam hit the lid. CLICK!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 36,
+            "pose": "dig",
+            "id": "c",
+            "scale": 0.85
+          },
+          {
+            "who": "dad",
+            "x": 86,
+            "flip": true,
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 0,
+            "y": "held",
+            "by": "c",
+            "scale": 0.85
+          },
+          {
+            "what": "chest",
+            "x": 62,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CLICK!",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Up it went.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "pose": "jump",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A sock!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 46,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 14,
+            "id": "chest"
+          },
+          {
+            "what": "sock",
+            "x": 0,
+            "y": "held",
+            "by": "dad"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A sock!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A sock?\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 36,
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 74,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 12,
+            "id": "chest"
+          },
+          {
+            "what": "sock",
+            "x": 0,
+            "y": "held",
+            "by": "dad"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A sock?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug in the chest.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 60,
+            "flip": true,
+            "scale": 1,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 12
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 38,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A bell!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 46,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 14,
+            "id": "chest"
+          },
+          {
+            "what": "bell",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A bell!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A bell?\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 36,
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 74,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 12,
+            "id": "chest"
+          },
+          {
+            "what": "bell",
+            "x": 0,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A bell?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug in the chest.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 54,
+            "flip": true,
+            "scale": 1,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 86,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bell",
+            "x": 14
+          },
+          {
+            "what": "chest_open",
+            "x": 22,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A pan!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 46,
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 14,
+            "id": "chest"
+          },
+          {
+            "what": "pan",
+            "x": 0,
+            "y": "held",
+            "by": "dad"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A pan!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A pan?\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 36,
+            "pose": "jump",
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 74,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 12,
+            "id": "chest"
+          },
+          {
+            "what": "pan",
+            "x": 0,
+            "y": "held",
+            "by": "dad"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A pan?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Dad, it is a chest of junk!\"",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 58,
+            "pose": "jump",
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 86,
+            "pose": "sit",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 14,
+            "id": "chest"
+          },
+          {
+            "what": "junk",
+            "x": 38
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Dad, it is a chest of junk!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad dug in the chest.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 60,
+            "flip": true,
+            "scale": 1,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 12
+          }
+        ],
+        "props": [
+          {
+            "what": "junk",
+            "x": 84
+          },
+          {
+            "what": "chest_open",
+            "x": 34,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 20,
+            "pose": "jump"
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          },
+          {
+            "who": "creeper",
+            "x": 55,
+            "pose": "hide",
+            "id": "cr"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 55,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A Creeper sat up in the chest!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 24,
+            "pose": "jump"
+          },
+          {
+            "who": "hero",
+            "x": 86,
+            "pose": "jump",
+            "flip": true
+          },
+          {
+            "who": "creeper",
+            "x": 58,
+            "pose": "in",
+            "in": "chest",
+            "scale": 0.7
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 58,
+            "id": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the Creeper!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 20,
+            "pose": "run",
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 86
+          },
+          {
+            "who": "creeper",
+            "x": 55,
+            "pose": "in",
+            "in": "chest",
+            "scale": 0.7
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 55,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the Creeper!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "In the chest was catnip.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 62,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "scale": 0.8
+          },
+          {
+            "who": "catnip",
+            "x": 34,
+            "pose": "in",
+            "in": "chest",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 34,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper had a big sniff.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 18,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          },
+          {
+            "who": "creeper",
+            "x": 50,
+            "flip": true,
+            "id": "cr"
+          }
+        ],
+        "props": [
+          {
+            "what": "catnip",
+            "x": 0,
+            "y": "held",
+            "by": "cr"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "SNIFF!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISS... HISS... ACHOO!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 55,
+            "flip": true,
+            "id": "cr"
+          },
+          {
+            "who": "dad",
+            "x": 20,
+            "pose": "jump",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 85,
+            "pose": "jump",
+            "flip": true
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sneeze",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sand went up, up, up!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 50,
+            "id": "cr"
+          },
+          {
+            "who": "dad",
+            "x": 12,
+            "pose": "upside_down",
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 90,
+            "pose": "jump",
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "sand",
+            "x": 36,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 50,
+            "y": "air",
+            "scale": 0.7
+          },
+          {
+            "what": "sand",
+            "x": 64,
+            "y": "air",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "boom",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was sunset. Dad sat in the pit.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "in",
+            "in": "pit",
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 22
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 50
+          },
+          {
+            "what": "chest_open",
+            "x": 84,
+            "id": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had sand in his hat.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 50,
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "sand",
+            "x": 50,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.5
+          },
+          {
+            "what": "chest_open",
+            "x": 86,
+            "id": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper had the pan hat.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 50,
+            "flip": true,
+            "scale": 0.85
+          },
+          {
+            "who": "dad",
+            "x": 20,
+            "pose": "sit",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pan",
+            "x": 50,
+            "y": "head"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Junk is not the best!\" said Dad.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "pose": "sit",
+            "flip": true,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "flip": true
+          },
+          {
+            "who": "creeper",
+            "x": 86,
+            "flip": true,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 38,
+            "id": "chest"
+          },
+          {
+            "what": "pan",
+            "x": 86,
+            "y": "head"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Junk is not the best!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    }
+  ]
+}

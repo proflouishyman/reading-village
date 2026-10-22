@@ -1,0 +1,1117 @@
+{
+  "v": 1,
+  "id": "pup-and-quest",
+  "title": "Sam and the Pup",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "p",
+    "q",
+    "n",
+    "u",
+    "m",
+    "w"
+  ],
+  "pages": [
+    {
+      "text": "Sam had a pup.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 35
+          },
+          {
+            "who": "pup",
+            "x": 62,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "sun",
+            "x": 85,
+            "y": "air"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pup had a map.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16
+          },
+          {
+            "who": "pup",
+            "x": 60,
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "map",
+            "x": 60,
+            "y": "held",
+            "by": "pup",
+            "scale": 0.6
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"A quest!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 76,
+            "scale": 0.75
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A quest!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad got a pan and a nut.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pan",
+            "x": 30,
+            "y": "held"
+          },
+          {
+            "what": "nut",
+            "x": 64,
+            "scale": 1.2
+          }
+        ]
+      }
+    },
+    {
+      "text": "The sun was up.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 18,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 38,
+            "pose": "sit",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "scale": 0.75,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pan",
+            "x": 78,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"We can go!\" said Sam.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "run",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "pan",
+            "x": 46,
+            "y": "held"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "We can go!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "They ran and ran.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "run",
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 14
+          },
+          {
+            "what": "pan",
+            "x": 34,
+            "y": "held"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pup ran in the mud.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 8,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 68,
+            "pose": "jump",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 68
+          }
+        ],
+        "fx": "mud_splat"
+      }
+    },
+    {
+      "text": "Mud, mud, mud!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 8,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 64,
+            "pose": "jump",
+            "scale": 0.8,
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "mud",
+            "x": 44
+          },
+          {
+            "what": "mud",
+            "x": 64
+          },
+          {
+            "what": "mud",
+            "x": 84
+          }
+        ],
+        "fx": [
+          {
+            "fx": "mud_splat",
+            "near": "pup"
+          },
+          {
+            "fx": "text",
+            "text": "MUD, MUD, MUD!",
+            "near": "pup"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A big wet gap!\" said Dad.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "pup",
+            "x": 66,
+            "scale": 0.8
+          }
+        ],
+        "props": [],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A big wet gap!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Can we jump?\" said Dad.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 76,
+            "pose": "sit",
+            "scale": 0.75
+          }
+        ],
+        "props": [],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Can we jump?",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"No!\" said Sam.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 76,
+            "scale": 0.75
+          }
+        ],
+        "props": [],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "No!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had a raft.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 8,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "scale": 0.75
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 60,
+            "y": "water",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pup sat on the raft.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Quick!\" said Sam.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "pose": "jump",
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Quick!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad can hum.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Hmm, hmm, hmm",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Hum, hum, hum!",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HUM, HUM, HUM!",
+            "near": "dad"
+          },
+          {
+            "fx": "sparkle",
+            "near": "dad"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A web is on the raft!",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          },
+          {
+            "what": "web",
+            "x": 56,
+            "y": "on",
+            "on": "raft",
+            "scale": 0.85,
+            "id": "web"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A web!\" said Dad.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          },
+          {
+            "what": "web",
+            "x": 56,
+            "y": "on",
+            "on": "raft",
+            "scale": 0.7,
+            "id": "web"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A web!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pup bit the web.",
+      "art": {
+        "bg": "river",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 10,
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 84,
+            "pose": "sit_on",
+            "scale": 0.75,
+            "on": "raft",
+            "id": "pup"
+          }
+        ],
+        "props": [
+          {
+            "what": "raft",
+            "x": 66,
+            "y": "water",
+            "id": "raft",
+            "scale": 1.0
+          },
+          {
+            "what": "web",
+            "x": 56,
+            "y": "on",
+            "on": "raft",
+            "scale": 0.7,
+            "id": "web"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "tap",
+            "near": "web"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then they ran up a hill.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "pup",
+            "x": 76,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 50,
+            "pose": "run",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 24,
+            "pose": "run",
+            "scale": 0.75
+          }
+        ],
+        "props": []
+      }
+    },
+    {
+      "text": "There was a big chest.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "pose": "jump",
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 30,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 62,
+            "scale": 1.25,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam got the lid up.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 38,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 88,
+            "pose": "sit",
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 64,
+            "scale": 1.25
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CREAK!",
+            "near": "chest_open",
+            "size": 10
+          }
+        ]
+      }
+    },
+    {
+      "text": "In it was a sock!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 12,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 40,
+            "scale": 0.75
+          },
+          {
+            "who": "sock",
+            "x": 64,
+            "pose": "in",
+            "in": "chest",
+            "scale": 0.9
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 64,
+            "scale": 1.4,
+            "id": "chest"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "A big, wet sock!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 10,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 38,
+            "scale": 0.75
+          },
+          {
+            "who": "sock",
+            "x": 64,
+            "pose": "in",
+            "in": "chest",
+            "scale": 1.3
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 64,
+            "scale": 1.4,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yuck!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12,
+            "scale": 0.75
+          },
+          {
+            "who": "dad",
+            "x": 32,
+            "scale": 0.75,
+            "id": "dad"
+          },
+          {
+            "who": "pup",
+            "x": 86,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "sock",
+            "x": 58,
+            "scale": 1.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yuck!",
+            "near": "dad",
+            "style": "say"
+          },
+          {
+            "fx": "stink",
+            "near": "sock"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The pup put it on.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 24,
+            "scale": 0.75
+          },
+          {
+            "who": "pup",
+            "x": 50
+          },
+          {
+            "who": "dad",
+            "x": 80,
+            "scale": 0.75,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "sock",
+            "x": 50,
+            "y": "head",
+            "by": "pup",
+            "scale": 0.5
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "\"A sock pup!\" said Sam.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 20,
+            "scale": 0.75
+          },
+          {
+            "who": "hero",
+            "x": 44,
+            "pose": "jump",
+            "scale": 0.75,
+            "id": "hero"
+          },
+          {
+            "who": "pup",
+            "x": 74,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "sock",
+            "x": 74,
+            "y": "head",
+            "by": "pup"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A sock pup!",
+            "near": "hero",
+            "style": "say"
+          },
+          {
+            "fx": "sparkle",
+            "near": "pup"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"We win!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 20,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 46,
+            "pose": "jump",
+            "id": "dad"
+          },
+          {
+            "who": "pup",
+            "x": 78,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "sock",
+            "x": 78,
+            "y": "head",
+            "by": "pup"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "We win!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    }
+  ]
+}

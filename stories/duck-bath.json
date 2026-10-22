@@ -1,0 +1,1233 @@
+{
+  "v": 1,
+  "id": "duck-bath",
+  "title": "Sam and the Duck",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "d",
+    "q",
+    "u"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad had a bathtub.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 76,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It sat on the hilltop.",
+      "art": {
+        "bg": "hill",
+        "actors": [],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 50,
+            "id": "tub"
+          },
+          {
+            "what": "sun",
+            "x": 85,
+            "y": "air"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam ran to the bathtub.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 25,
+            "pose": "run"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 72,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Dad, a duck!\" said Sam.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14,
+            "pose": "jump",
+            "id": "c"
+          },
+          {
+            "who": "dad",
+            "x": 42
+          },
+          {
+            "who": "duck",
+            "x": 76,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 76,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Dad, a duck!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A duck sat in the bathtub.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16
+          },
+          {
+            "who": "dad",
+            "x": 86,
+            "flip": true,
+            "scale": 0.9
+          },
+          {
+            "who": "duck",
+            "x": 52,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 52,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get off, duck!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 34,
+            "id": "dad"
+          },
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "duck",
+            "x": 68,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 68,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get off, duck!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "QUACK! QUACK! QUACK!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "dad",
+            "x": 34
+          },
+          {
+            "who": "duck",
+            "x": 72,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.72,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 72,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "QUACK! QUACK! QUACK!",
+            "near": "duck",
+            "size": 9
+          }
+        ]
+      }
+    },
+    {
+      "text": "The duck did not get off.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 14
+          },
+          {
+            "who": "hero",
+            "x": 37
+          },
+          {
+            "who": "duck",
+            "x": 74,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.72,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 74,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had a bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 34
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 34,
+            "y": "held",
+            "by": "dad"
+          },
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get off, duck! Yum, a bun!\"",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "jump",
+            "id": "dad"
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bun",
+            "x": 34,
+            "y": "held",
+            "by": "dad"
+          },
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get off, duck! Yum, a bun!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The duck got the bun.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 32
+          },
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "duck",
+            "x": 72,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 72,
+            "id": "tub"
+          },
+          {
+            "what": "bun",
+            "x": 72,
+            "y": "held",
+            "by": "duck"
+          }
+        ]
+      }
+    },
+    {
+      "text": "QUACK! QUACK! QUACK!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10
+          },
+          {
+            "who": "dad",
+            "x": 32
+          },
+          {
+            "who": "duck",
+            "x": 74,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 74,
+            "id": "tub"
+          },
+          {
+            "what": "bun",
+            "x": 74,
+            "y": "held",
+            "by": "duck"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "QUACK! QUACK! QUACK!",
+            "near": "duck",
+            "size": 9
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then a Creeper ran up.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 14,
+            "pose": "run",
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "duck",
+            "x": 86,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 86,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 30,
+            "id": "cr"
+          },
+          {
+            "who": "dad",
+            "x": 10,
+            "pose": "jump",
+            "scale": 0.9
+          },
+          {
+            "who": "hero",
+            "x": 58,
+            "pose": "jump",
+            "flip": true,
+            "scale": 0.9
+          },
+          {
+            "who": "duck",
+            "x": 86,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 86,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "QUACK! QUACK! QUACK!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 12,
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 34,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "dad",
+            "x": 88,
+            "flip": true,
+            "scale": 0.8
+          },
+          {
+            "who": "duck",
+            "x": 62,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 62,
+            "id": "tub",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "QUACK! QUACK! QUACK!",
+            "near": "duck",
+            "size": 9
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper ran and hid on Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 33,
+            "id": "dad",
+            "scale": 0.85
+          },
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          },
+          {
+            "who": "creeper",
+            "x": 33,
+            "pose": "sit_on",
+            "on": "dad",
+            "scale": 0.45
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get off, Creeper!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 33,
+            "id": "dad",
+            "scale": 0.85
+          },
+          {
+            "who": "hero",
+            "x": 11,
+            "pose": "jump"
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          },
+          {
+            "who": "creeper",
+            "x": 33,
+            "pose": "sit_on",
+            "on": "dad",
+            "scale": 0.45
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get off, Creeper!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper did not get off.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 33,
+            "flip": true,
+            "id": "dad",
+            "scale": 0.85
+          },
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          },
+          {
+            "who": "creeper",
+            "x": 33,
+            "pose": "sit_on",
+            "on": "dad",
+            "scale": 0.45
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I will get the duck,\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "run",
+            "id": "dad",
+            "scale": 0.8
+          },
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "duck",
+            "x": 78,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          },
+          {
+            "who": "creeper",
+            "x": 34,
+            "pose": "sit_on",
+            "on": "dad",
+            "scale": 0.45
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 78,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I will get the duck,",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad ran and did a big jump.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 52,
+            "pose": "up",
+            "id": "dad",
+            "scale": 0.7
+          },
+          {
+            "who": "hero",
+            "x": 11
+          },
+          {
+            "who": "duck",
+            "x": 80,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 80,
+            "id": "tub"
+          },
+          {
+            "what": "creeper",
+            "x": 52,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS! BOOM!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "pose": "upside_down",
+            "id": "dad",
+            "scale": 0.6
+          },
+          {
+            "who": "hero",
+            "x": 12,
+            "scale": 0.8
+          },
+          {
+            "who": "duck",
+            "x": 80,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.7,
+            "id": "duck",
+            "in": "tub"
+          },
+          {
+            "who": "creeper",
+            "x": 50,
+            "id": "cr"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 80,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "boom",
+            "near": "cr"
+          },
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "cr"
+          }
+        ]
+      }
+    },
+    {
+      "text": "SPLASH!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 70,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "duck",
+            "x": 34,
+            "pose": "jump",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 8,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 70,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "tub"
+          },
+          {
+            "fx": "text",
+            "text": "SPLASH!",
+            "near": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad sat in the bathtub.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 44,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "duck",
+            "x": 80,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 44,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The duck sat on Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 15
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "in",
+            "scale": 0.7,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "duck",
+            "x": 50,
+            "pose": "sit_on",
+            "on": "dad",
+            "flip": true,
+            "scale": 0.5
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 50,
+            "id": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper sat on the duck.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "in",
+            "scale": 0.65,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "duck",
+            "x": 50,
+            "pose": "sit_on",
+            "on": "dad",
+            "flip": true,
+            "scale": 0.45,
+            "id": "duck"
+          },
+          {
+            "who": "creeper",
+            "x": 50,
+            "pose": "sit_on",
+            "on": "duck",
+            "scale": 0.33
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 50,
+            "id": "tub",
+            "scale": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Huff! Puff!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "flip": true
+          },
+          {
+            "who": "duck",
+            "x": 22,
+            "pose": "jump",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 50,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Huff! Puff!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was wet. What a mess!",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 15,
+            "pose": "jump"
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 50,
+            "id": "tub"
+          },
+          {
+            "what": "cloud",
+            "x": 80,
+            "y": "air"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "tub"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is a hot bath,\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 75,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 40,
+            "id": "tub"
+          },
+          {
+            "what": "steam",
+            "x": 40,
+            "y": "air"
+          },
+          {
+            "what": "sun",
+            "x": 88,
+            "y": "air"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is a hot bath,",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"QUACK!\" said the duck.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "duck",
+            "x": 55,
+            "flip": true,
+            "id": "duck"
+          },
+          {
+            "who": "dad",
+            "x": 26,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 85,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 26,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "QUACK!",
+            "near": "duck",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"ACHOO!\" said Dad.",
+      "art": {
+        "bg": "hill",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "in",
+            "scale": 0.8,
+            "id": "dad",
+            "in": "tub",
+            "flip": true
+          },
+          {
+            "who": "hero",
+            "x": 8,
+            "pose": "jump",
+            "scale": 0.8
+          },
+          {
+            "who": "duck",
+            "x": 82,
+            "pose": "sit",
+            "flip": true,
+            "scale": 0.8
+          }
+        ],
+        "props": [
+          {
+            "what": "bathtub",
+            "x": 40,
+            "id": "tub"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sneeze",
+            "near": "dad"
+          }
+        ]
+      }
+    }
+  ]
+}

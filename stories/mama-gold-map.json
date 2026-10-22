@@ -1,0 +1,895 @@
+{
+  "v": 1,
+  "id": "mama-gold-map",
+  "title": "Mama and the Gold Map",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "d",
+    "b"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam sat on a ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a map.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "map",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "A red X was on the map.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "map",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.9
+          },
+          {
+            "what": "x_mark",
+            "x": 50,
+            "y": "air",
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Go, ship, go!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Go, ship, go!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The ship went and went.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 18,
+            "y": "air",
+            "scale": 1.3
+          },
+          {
+            "what": "cloud",
+            "x": 82,
+            "y": "air",
+            "scale": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "text": "Splash, splash, splash!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "boat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Is it here?\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Is it here?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not yet,\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not yet.",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The sun was red.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam ran on the sand.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 28,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a pick.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 70,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 30,
+            "y": "held",
+            "by": "mama",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dig, dig, dig!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 28,
+            "pose": "dig",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 72,
+            "pose": "dig",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 28,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          },
+          {
+            "what": "pickaxe",
+            "x": 72,
+            "y": "held",
+            "by": "c",
+            "scale": 0.65
+          }
+        ],
+        "fx": [
+          {
+            "fx": "tap",
+            "near": "mama"
+          }
+        ]
+      }
+    },
+    {
+      "text": "CLANG!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 20,
+            "pose": "dig",
+            "scale": 0.85,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 20,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.85
+          },
+          {
+            "what": "chest",
+            "x": 52,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CLANG!",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A chest!\" said Mama.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A chest!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam hit the lid. CLICK!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 52,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CLICK!",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Up it went.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "It had gold in it!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          },
+          {
+            "what": "gold",
+            "x": 50,
+            "y": "air",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yes, yes, yes!\" said Mama.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yes, yes, yes!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a big gold bit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 70,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "gold",
+            "x": 70,
+            "y": "held",
+            "by": "c",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Mama, get the gold!\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 70,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "gold",
+            "x": 70,
+            "y": "held",
+            "by": "c",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mama, get the gold!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a big grin.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "gold",
+            "x": 24,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam had a hug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 44,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam sat in the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "gold",
+            "x": 50,
+            "y": "air",
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Gold in the ship! Yes!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "gold",
+            "x": 50,
+            "y": "air",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "boat"
+          }
+        ]
+      }
+    }
+  ]
+}

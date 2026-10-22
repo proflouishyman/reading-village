@@ -1,0 +1,6 @@
+{"v":1,"games":{
+  "craft":{"max":6,"window":10,"need":8},
+  "blocks":{"max":6,"window":10,"need":8},
+  "mine":{"max":4,"window":10,"need":8},
+  "match":{"max":4,"window":10,"need":8}
+}}

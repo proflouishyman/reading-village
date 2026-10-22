@@ -1,0 +1,1175 @@
+{
+  "v": 1,
+  "id": "mama-crab",
+  "title": "Mama and the Crab",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "b",
+    "p"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam sat on a ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a hat.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then a crab hit the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6,
+            "id": "crab"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Tap!",
+            "near": "crab"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Tap, tap, tap!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6,
+            "id": "crab"
+          }
+        ],
+        "fx": [
+          "tap"
+        ]
+      }
+    },
+    {
+      "text": "A crab sat on the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The crab got the hat.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Mama, a crab!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mama, a crab!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get off, crab!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get off, crab!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The crab did not get off.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pinch, pinch, pinch!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Pinch!",
+            "near": "crab"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a bun.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          },
+          {
+            "what": "bun",
+            "x": 64,
+            "y": "held",
+            "by": "c",
+            "scale": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yum, a bun!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          },
+          {
+            "what": "bun",
+            "x": 64,
+            "y": "held",
+            "by": "c",
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yum, a bun!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam put the bun on a log.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "crab",
+            "x": 50,
+            "y": "on",
+            "on": "boat",
+            "scale": 0.4,
+            "id": "crab"
+          },
+          {
+            "what": "hat",
+            "x": 50,
+            "y": "on",
+            "on": "crab",
+            "scale": 0.4,
+            "id": "hat1"
+          },
+          {
+            "what": "log",
+            "x": 82,
+            "y": "water",
+            "id": "log1"
+          },
+          {
+            "what": "bun",
+            "x": 82,
+            "y": "on",
+            "on": "log1",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "The crab ran and got the bun.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "log",
+            "x": 82,
+            "y": "water",
+            "id": "log1"
+          },
+          {
+            "what": "crab",
+            "x": 82,
+            "y": "on",
+            "on": "log1",
+            "scale": 0.5,
+            "id": "crab"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama got the hat back.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "log",
+            "x": 82,
+            "y": "water",
+            "id": "log1"
+          },
+          {
+            "what": "crab",
+            "x": 82,
+            "y": "on",
+            "on": "log1",
+            "scale": 0.5,
+            "id": "crab"
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "Yum, yum, yum!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "log",
+            "x": 82,
+            "y": "water",
+            "id": "log1"
+          },
+          {
+            "what": "crab",
+            "x": 82,
+            "y": "on",
+            "on": "log1",
+            "scale": 0.5,
+            "id": "crab"
+          },
+          {
+            "what": "bun",
+            "x": 82,
+            "y": "air",
+            "scale": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is a quick crab!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "log",
+            "x": 82,
+            "y": "water",
+            "id": "log1"
+          },
+          {
+            "what": "crab",
+            "x": 82,
+            "y": "on",
+            "on": "log1",
+            "scale": 0.5,
+            "id": "crab"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is a quick crab!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then the crab went off.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pop! Up it came.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.5,
+            "id": "crab"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "crab"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The crab had a gold bit.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6,
+            "id": "crab"
+          },
+          {
+            "what": "gold",
+            "x": 80,
+            "y": "air",
+            "scale": 0.5
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "\"Mama, a gold bit!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6,
+            "id": "crab"
+          },
+          {
+            "what": "gold",
+            "x": 80,
+            "y": "air",
+            "scale": 0.5
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mama, a gold bit!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a big grin.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "hat",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.5,
+            "id": "hat1"
+          },
+          {
+            "what": "crab",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6,
+            "id": "crab"
+          },
+          {
+            "what": "gold",
+            "x": 80,
+            "y": "air",
+            "scale": 0.5
+          }
+        ]
+      }
+    }
+  ]
+}

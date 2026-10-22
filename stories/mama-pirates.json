@@ -1,0 +1,1052 @@
+{
+  "v": 1,
+  "id": "mama-pirates",
+  "title": "Mama and the Pirate",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "p",
+    "b"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam sat in the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Zip! Polly came to the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "polly",
+            "x": 50,
+            "y": "air",
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a map.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "map",
+            "x": 37,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Go, ship, go!\" said Mama.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Go, ship, go!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The ship went and went.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "cloud",
+            "x": 18,
+            "y": "air",
+            "scale": 1.3
+          },
+          {
+            "what": "cloud",
+            "x": 82,
+            "y": "air",
+            "scale": 1.3
+          }
+        ]
+      }
+    },
+    {
+      "text": "A pirate sat on the sand.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 44,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "sit",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I am Pip,\" he said.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I am Pip.",
+            "near": "pip",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I lost my hat!\" said Pip.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I lost my hat!",
+            "near": "pip",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pip was sad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "sit",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"We will help,\" said Mama.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "We will help.",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had the map.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "map",
+            "x": 24,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "A red X was on the map.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "map",
+            "x": 24,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.9
+          },
+          {
+            "what": "x_mark",
+            "x": 50,
+            "y": "air",
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Go, go, go!\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 20,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Go, go, go!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama had a pick.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 24,
+            "y": "held",
+            "by": "mama",
+            "scale": 1
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dig, dig, dig!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 26,
+            "pose": "dig",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 72,
+            "pose": "dig",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 26,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.55
+          },
+          {
+            "what": "pickaxe",
+            "x": 72,
+            "y": "held",
+            "by": "c",
+            "scale": 0.65
+          }
+        ],
+        "fx": [
+          {
+            "fx": "tap",
+            "near": "mama"
+          }
+        ]
+      }
+    },
+    {
+      "text": "CLANG!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 20,
+            "pose": "dig",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "pickaxe",
+            "x": 20,
+            "y": "held",
+            "by": "mama",
+            "scale": 0.85
+          },
+          {
+            "what": "chest",
+            "x": 52,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "CLANG!",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A chest!\" said Sam.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 14,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 34,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 90,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest",
+            "x": 60,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A chest!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Up it went.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 80,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "It had gold in it!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 82,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "chest_open",
+            "x": 50,
+            "id": "chest"
+          },
+          {
+            "what": "gold",
+            "x": 50,
+            "y": "air",
+            "scale": 0.7
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "chest"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"No hat,\" said Pip.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "sit",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "No hat.",
+            "near": "pip",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Zip! Polly had a hat!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "polly",
+            "x": 52,
+            "y": "air",
+            "scale": 0.8
+          },
+          {
+            "what": "pirate_hat",
+            "x": 52,
+            "y": "air",
+            "scale": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Yes, my hat!\" said Pip.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 74,
+            "pose": "jump",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Yes, my hat!",
+            "near": "pip",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pip put on his hat.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "pirate_hat",
+            "x": 74,
+            "y": "head",
+            "by": "pip",
+            "scale": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pip let Sam get the gold.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "gold",
+            "x": 48,
+            "y": "held",
+            "by": "c",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pip had a flag.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 24,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 48,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "pirate",
+            "x": 78,
+            "pose": "stand",
+            "scale": 0.9,
+            "flip": true,
+            "id": "pip"
+          }
+        ],
+        "props": [
+          {
+            "what": "pirate_flag",
+            "x": 74,
+            "y": "held",
+            "by": "pip",
+            "scale": 0.7
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam had a hug.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 40,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 56,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam sat in the ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat",
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water",
+            "id": "boat"
+          },
+          {
+            "what": "gold",
+            "x": 50,
+            "y": "air",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "sparkle",
+            "near": "boat"
+          }
+        ]
+      }
+    }
+  ]
+}

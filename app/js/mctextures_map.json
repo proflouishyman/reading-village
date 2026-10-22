@@ -1,0 +1,541 @@
+{
+ "v": 1,
+ "entries": {
+  "coal": {
+   "kind": "block",
+   "jar": "block/coal_ore"
+  },
+  "iron": {
+   "kind": "block",
+   "jar": "block/iron_ore"
+  },
+  "gold": {
+   "kind": "block",
+   "jar": "block/gold_ore"
+  },
+  "diamond": {
+   "kind": "block",
+   "jar": "block/diamond_ore"
+  },
+  "emerald": {
+   "kind": "block",
+   "jar": "block/emerald_ore"
+  },
+  "chest": {
+   "kind": "composite",
+   "name": "chest"
+  },
+  "torch": {
+   "kind": "block",
+   "jar": "block/torch"
+  },
+  "wood": {
+   "kind": "block",
+   "jar": "block/oak_planks"
+  },
+  "stone": {
+   "kind": "block",
+   "jar": "block/stone"
+  },
+  "dirt": {
+   "kind": "block",
+   "jar": "block/dirt"
+  },
+  "sand": {
+   "kind": "block",
+   "jar": "block/sand"
+  },
+  "door": {
+   "kind": "item",
+   "jar": "item/oak_door"
+  },
+  "web": {
+   "kind": "block",
+   "jar": "block/cobweb"
+  },
+  "log": {
+   "kind": "block",
+   "jar": "block/oak_log"
+  },
+  "bell": {
+   "kind": "item",
+   "jar": "item/bell"
+  },
+  "village_bell": {
+   "kind": "item",
+   "jar": "item/bell"
+  },
+  "pickaxe": {
+   "kind": "item",
+   "jar": "item/iron_pickaxe"
+  },
+  "diamond_pickaxe": {
+   "kind": "item",
+   "jar": "item/diamond_pickaxe"
+  },
+  "rod": {
+   "kind": "item",
+   "jar": "item/fishing_rod"
+  },
+  "map": {
+   "kind": "item",
+   "jar": "item/map"
+  },
+  "bow": {
+   "kind": "item",
+   "jar": "item/bow"
+  },
+  "sapling": {
+   "kind": "block",
+   "jar": "block/oak_sapling"
+  },
+  "oak_boat": {
+   "kind": "item",
+   "jar": "item/oak_boat"
+  },
+  "fish": {
+   "kind": "mob",
+   "mob": "cod"
+  },
+  "lectern": {
+   "kind": "block",
+   "jar": "block/lectern_front"
+  },
+  "blast_furnace": {
+   "kind": "block",
+   "jar": "block/blast_furnace_front"
+  },
+  "grindstone": {
+   "kind": "block",
+   "jar": "block/grindstone_side"
+  },
+  "smithing_table": {
+   "kind": "block",
+   "jar": "block/smithing_table_front"
+  },
+  "composter": {
+   "kind": "block",
+   "jar": "block/composter_side"
+  },
+  "fletching_table": {
+   "kind": "block",
+   "jar": "block/fletching_table_front"
+  },
+  "brewing_stand": {
+   "kind": "item",
+   "jar": "item/brewing_stand"
+  },
+  "cartography_table": {
+   "kind": "block",
+   "jar": "block/cartography_table_side1"
+  },
+  "loom": {
+   "kind": "block",
+   "jar": "block/loom_front"
+  },
+  "smoker": {
+   "kind": "block",
+   "jar": "block/smoker_front"
+  },
+  "barrel": {
+   "kind": "block",
+   "jar": "block/barrel_side"
+  },
+  "stonecutter": {
+   "kind": "block",
+   "jar": "block/stonecutter_side"
+  },
+  "cauldron": {
+   "kind": "item",
+   "jar": "item/cauldron"
+  },
+  "enchanted_book": {
+   "kind": "item",
+   "jar": "item/enchanted_book"
+  },
+  "spawn_egg": {
+   "kind": "item",
+   "jar": "item/villager_spawn_egg"
+  },
+  "diamond_sword": {
+   "kind": "item",
+   "jar": "item/diamond_sword"
+  },
+  "diamond_chestplate": {
+   "kind": "item",
+   "jar": "item/diamond_chestplate"
+  },
+  "elytra": {
+   "kind": "item",
+   "jar": "item/elytra"
+  },
+  "golden_apple": {
+   "kind": "item",
+   "jar": "item/golden_apple"
+  },
+  "totem": {
+   "kind": "item",
+   "jar": "item/totem_of_undying"
+  },
+  "netherite_ingot": {
+   "kind": "item",
+   "jar": "item/netherite_ingot"
+  },
+  "name_tag": {
+   "kind": "item",
+   "jar": "item/name_tag"
+  },
+  "saddle": {
+   "kind": "item",
+   "jar": "item/saddle"
+  },
+  "trident": {
+   "kind": "item",
+   "jar": "item/trident"
+  },
+  "xp_bottle": {
+   "kind": "item",
+   "jar": "item/experience_bottle"
+  },
+  "ender_pearl": {
+   "kind": "item",
+   "jar": "item/ender_pearl"
+  },
+  "music_disc": {
+   "kind": "item",
+   "jar": "item/music_disc_cat"
+  },
+  "wandering_trader": {
+   "kind": "trader"
+  },
+  "trader_llama": {
+   "kind": "llama"
+  },
+  "villager_librarian": {
+   "kind": "villager",
+   "profession": "librarian"
+  },
+  "villager_armorer": {
+   "kind": "villager",
+   "profession": "armorer"
+  },
+  "villager_weaponsmith": {
+   "kind": "villager",
+   "profession": "weaponsmith"
+  },
+  "villager_toolsmith": {
+   "kind": "villager",
+   "profession": "toolsmith"
+  },
+  "villager_farmer": {
+   "kind": "villager",
+   "profession": "farmer"
+  },
+  "villager_fletcher": {
+   "kind": "villager",
+   "profession": "fletcher"
+  },
+  "villager_cleric": {
+   "kind": "villager",
+   "profession": "cleric"
+  },
+  "villager_cartographer": {
+   "kind": "villager",
+   "profession": "cartographer"
+  },
+  "villager_shepherd": {
+   "kind": "villager",
+   "profession": "shepherd"
+  },
+  "villager_butcher": {
+   "kind": "villager",
+   "profession": "butcher"
+  },
+  "villager_fisherman": {
+   "kind": "villager",
+   "profession": "fisherman"
+  },
+  "villager_mason": {
+   "kind": "villager",
+   "profession": "mason"
+  },
+  "villager_leatherworker": {
+   "kind": "villager",
+   "profession": "leatherworker"
+  },
+  "badge_stone": {
+   "kind": "block",
+   "jar": "block/stone"
+  },
+  "badge_iron": {
+   "kind": "item",
+   "jar": "item/iron_ingot"
+  },
+  "badge_gold": {
+   "kind": "item",
+   "jar": "item/gold_ingot"
+  },
+  "badge_emerald": {
+   "kind": "item",
+   "jar": "item/emerald"
+  },
+  "badge_diamond": {
+   "kind": "item",
+   "jar": "item/diamond"
+  },
+  "coal_item": {
+   "kind": "item",
+   "jar": "item/coal"
+  },
+  "iron_item": {
+   "kind": "item",
+   "jar": "item/iron_ingot"
+  },
+  "gold_item": {
+   "kind": "item",
+   "jar": "item/gold_ingot"
+  },
+  "diamond_item": {
+   "kind": "item",
+   "jar": "item/diamond"
+  },
+  "emerald_item": {
+   "kind": "item",
+   "jar": "item/emerald"
+  },
+  "pig": {
+   "kind": "mob",
+   "mob": "pig"
+  },
+  "bat": {
+   "kind": "mob",
+   "mob": "bat"
+  },
+  "hen": {
+   "kind": "mob",
+   "mob": "hen"
+  },
+  "fox": {
+   "kind": "mob",
+   "mob": "fox"
+  },
+  "frog": {
+   "kind": "mob",
+   "mob": "frog"
+  },
+  "squid": {
+   "kind": "mob",
+   "mob": "squid"
+  },
+  "goat": {
+   "kind": "mob",
+   "mob": "goat"
+  },
+  "sheep": {
+   "kind": "mob",
+   "mob": "sheep"
+  },
+  "cow": {
+   "kind": "mob",
+   "mob": "cow"
+  },
+  "bee": {
+   "kind": "mob",
+   "mob": "bee"
+  },
+  "mule": {
+   "kind": "mob",
+   "mob": "mule"
+  },
+  "slime": {
+   "kind": "mob",
+   "mob": "slime"
+  },
+  "blaze": {
+   "kind": "mob",
+   "mob": "blaze"
+  },
+  "chick": {
+   "kind": "mob",
+   "mob": "chick"
+  },
+  "rabbit": {
+   "kind": "mob",
+   "mob": "rabbit"
+  },
+  "panda": {
+   "kind": "mob",
+   "mob": "panda"
+  },
+  "camel": {
+   "kind": "mob",
+   "mob": "camel"
+  },
+  "piglin": {
+   "kind": "mob",
+   "mob": "piglin"
+  },
+  "hoglin": {
+   "kind": "mob",
+   "mob": "hoglin"
+  },
+  "wool": {
+   "kind": "block",
+   "jar": "block/white_wool"
+  },
+  "vine": {
+   "kind": "block",
+   "jar": "block/vine",
+   "tint": [
+    72,
+    181,
+    24
+   ]
+  },
+  "snow": {
+   "kind": "item",
+   "jar": "item/snowball"
+  },
+  "pumpkin": {
+   "kind": "block",
+   "jar": "block/carved_pumpkin"
+  },
+  "book": {
+   "kind": "item",
+   "jar": "item/book"
+  },
+  "milk": {
+   "kind": "item",
+   "jar": "item/milk_bucket"
+  },
+  "tube": {
+   "kind": "block",
+   "jar": "block/tube_coral"
+  },
+  "hive": {
+   "kind": "block",
+   "jar": "block/beehive_front"
+  },
+  "cake": {
+   "kind": "item",
+   "jar": "item/cake"
+  },
+  "shell": {
+   "kind": "item",
+   "jar": "item/nautilus_shell"
+  },
+  "leaf": {
+   "kind": "block",
+   "jar": "block/oak_leaves",
+   "tint": [
+    72,
+    181,
+    24
+   ]
+  },
+  "helmet": {
+   "kind": "item",
+   "jar": "item/iron_helmet"
+  },
+  "rocket": {
+   "kind": "item",
+   "jar": "item/firework_rocket"
+  },
+  "cactus": {
+   "kind": "block",
+   "jar": "block/cactus_side"
+  },
+  "flint": {
+   "kind": "item",
+   "jar": "item/flint"
+  },
+  "nest": {
+   "kind": "block",
+   "jar": "block/bee_nest_front"
+  },
+  "brick": {
+   "kind": "item",
+   "jar": "item/brick"
+  },
+  "bucket": {
+   "kind": "item",
+   "jar": "item/bucket"
+  },
+  "rail": {
+   "kind": "block",
+   "jar": "block/rail"
+  },
+  "bone": {
+   "kind": "item",
+   "jar": "item/bone"
+  },
+  "clock": {
+   "kind": "item",
+   "jar": "item/clock_00"
+  },
+  "stick": {
+   "kind": "item",
+   "jar": "item/stick"
+  }
+ },
+ "unmapped": {
+  "hero": "character, hand-drawn",
+  "dad": "character, hand-drawn",
+  "creeper": "mob, hand-drawn",
+  "duck": "mob, hand-drawn",
+  "gold_pig": "mob variant, hand-drawn",
+  "stink": "story prop, no Minecraft counterpart",
+  "tree": "scenery, no flat texture",
+  "sun": "scenery",
+  "moon": "scenery",
+  "cloud": "scenery",
+  "crown": "story prop",
+  "hat": "Dad's cap, story prop",
+  "hut": "scene object, no flat texture",
+  "bun": "story prop (jam bun)",
+  "sock": "story prop",
+  "pot": "story prop",
+  "pan": "story prop",
+  "nut": "story prop",
+  "junk": "story prop",
+  "chest_open": "open-lid scene art; only the closed chest has a clean texture",
+  "pit": "scene object",
+  "bag": "story prop (the hero's bag)",
+  "rug": "story prop",
+  "bathtub": "story prop",
+  "steam": "effect",
+  "catnip": "story prop",
+  "splash_big": "effect",
+  "x_mark": "UI mark",
+  "villager_locked": "silhouette, intentionally hand-drawn",
+  "magic_portal": "effect",
+  "pup": "real picture is too small or unclear at Crafting Table size; hand-drawn on purpose (parent's choice)",
+  "mud": "real picture is too small or unclear at Crafting Table size; hand-drawn on purpose (parent's choice)",
+  "bed": "real picture is too small or unclear at Crafting Table size; hand-drawn on purpose (parent's choice)",
+  "boat": "hand-drawn sailing boat on purpose: the SHIP craft word shows it (parent's choice); BOAT uses its own id oak_boat",
+  "raft": "real picture is too small or unclear at Crafting Table size; hand-drawn on purpose (parent's choice)",
+  "mama": "character, hand-drawn",
+  "lighthouse": "story prop, no Minecraft counterpart",
+  "crab": "story prop, no Minecraft counterpart",
+  "pirate": "character, hand-drawn",
+  "witch": "character, hand-drawn",
+  "owl": "story animal, hand-drawn",
+  "mushroom": "story prop, scenery",
+  "berry_bush": "story prop, scenery",
+  "deer": "story animal, hand-drawn",
+  "bunny": "story animal, hand-drawn",
+  "tent": "story prop, no Minecraft counterpart",
+  "campfire": "story prop, no flat texture",
+  "pine": "scenery, no flat texture",
+  "pirate_hat": "story prop (worn)",
+  "pirate_flag": "story prop, no Minecraft counterpart",
+  "flag": "no flat banner texture in the jar (the real one showed a rug); hand-drawn on purpose (parent's choice)",
+  "polly": "story animal (a parrot), hand-drawn",
+  "spyglass": "story prop, no Minecraft counterpart",
+  "plank": "story prop, hand-drawn",
+  "witch_hat": "story prop (worn)",
+  "broom": "story prop, no Minecraft counterpart",
+  "flask": "story prop (a potion bottle), hand-drawn",
+  "black_cat": "story animal, hand-drawn"
+ }
+}

@@ -1,0 +1,857 @@
+{
+  "v": 1,
+  "id": "hen-hat",
+  "title": "Sam and the Hen",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "d",
+    "n",
+    "p"
+  ],
+  "pages": [
+    {
+      "text": "Dad had a red hat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 24
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 24,
+            "y": "head"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had a nap.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 50,
+            "pose": "lying",
+            "in": "bed"
+          },
+          {
+            "who": "hero",
+            "x": 88,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 50,
+            "scale": 1.15
+          },
+          {
+            "what": "hat",
+            "x": 14
+          }
+        ],
+        "fx": "zzz"
+      }
+    },
+    {
+      "text": "Dad got up.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 52
+          },
+          {
+            "who": "hero",
+            "x": 84,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 24,
+            "scale": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"You have no hat!\" said Sam.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 22,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 50,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 76,
+            "scale": 0.75
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "You have no hat!",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I had a hat,\" said Dad.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 25
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "flip": true
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I had a hat.",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Let us look,\" said Sam.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 44
+          }
+        ],
+        "props": [
+          {
+            "what": "door",
+            "x": 84
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Let us look.",
+            "near": "hero",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Look in the bed.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 15
+          },
+          {
+            "who": "dad",
+            "x": 35
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 75
+          }
+        ]
+      }
+    },
+    {
+      "text": "A Creeper! HISSSS!",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 10,
+            "pose": "jump"
+          },
+          {
+            "who": "dad",
+            "x": 32,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 52,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 86,
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "creeper"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the Creeper!\" said Dad.",
+      "art": {
+        "bg": "inside_house",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.85
+          },
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "creeper",
+            "x": 52,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "bed",
+            "x": 86,
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the Creeper!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Look in the pit.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 16
+          },
+          {
+            "who": "dad",
+            "x": 38
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 70
+          }
+        ]
+      }
+    },
+    {
+      "text": "A Creeper! HISSSS!",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 32,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 72,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 72
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "creeper"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the Creeper!\" said Dad.",
+      "art": {
+        "bg": "sandpit",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 40,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 78,
+            "pose": "in",
+            "in": "pit"
+          }
+        ],
+        "props": [
+          {
+            "what": "pit",
+            "x": 78
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the Creeper!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Look in the hut.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 15
+          },
+          {
+            "who": "dad",
+            "x": 40
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 74
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "A hat on a Creeper!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 30
+          },
+          {
+            "who": "creeper",
+            "x": 54,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 80,
+            "scale": 0.8
+          },
+          {
+            "what": "hat",
+            "x": 54,
+            "y": "head"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is my hat!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 12
+          },
+          {
+            "who": "dad",
+            "x": 33,
+            "scale": 0.9
+          },
+          {
+            "who": "creeper",
+            "x": 56,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hut",
+            "x": 80,
+            "scale": 0.8
+          },
+          {
+            "what": "hat",
+            "x": 56,
+            "y": "head"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is my hat!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A hen sat in it.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 15
+          },
+          {
+            "who": "hero",
+            "x": 36
+          },
+          {
+            "who": "hen",
+            "x": 62,
+            "pose": "sit_on",
+            "on": "hat1",
+            "scale": 0.6
+          },
+          {
+            "who": "creeper",
+            "x": 90,
+            "scale": 0.6,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 62,
+            "scale": 1.0,
+            "id": "hat1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Get up, hen!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 36
+          },
+          {
+            "who": "dad",
+            "x": 15
+          },
+          {
+            "who": "hen",
+            "x": 62,
+            "pose": "sit_on",
+            "on": "hat1",
+            "scale": 0.6
+          },
+          {
+            "who": "creeper",
+            "x": 90,
+            "scale": 0.6,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 62,
+            "scale": 1.0,
+            "id": "hat1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Get up, hen!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The hen did not get up.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hen",
+            "x": 62,
+            "pose": "sit_on",
+            "on": "hat1",
+            "id": "hen1",
+            "scale": 0.6
+          },
+          {
+            "who": "dad",
+            "x": 15
+          },
+          {
+            "who": "hero",
+            "x": 36
+          },
+          {
+            "who": "creeper",
+            "x": 90,
+            "scale": 0.6,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 62,
+            "scale": 1.0,
+            "id": "hat1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "zzz",
+            "near": "hen1"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad got the hat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 34
+          },
+          {
+            "who": "creeper",
+            "x": 86,
+            "scale": 0.6
+          },
+          {
+            "who": "hen",
+            "x": 58,
+            "flip": true,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 34,
+            "y": "head"
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISS... HISS... ACHOO!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "creeper",
+            "x": 86,
+            "scale": 0.6
+          },
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 34
+          },
+          {
+            "who": "hen",
+            "x": 58,
+            "flip": true,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 34,
+            "y": "head"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISS... HISS... ACHOO!",
+            "near": "creeper",
+            "size": 7
+          }
+        ]
+      }
+    },
+    {
+      "text": "The hat was up, up, up!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 14
+          },
+          {
+            "who": "dad",
+            "x": 34,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 86,
+            "scale": 0.6
+          },
+          {
+            "who": "hen",
+            "x": 58,
+            "flip": true,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 60,
+            "y": "air"
+          }
+        ],
+        "fx": "sparkle"
+      }
+    },
+    {
+      "text": "The hat sat on the Creeper.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16
+          },
+          {
+            "who": "hero",
+            "x": 37
+          },
+          {
+            "who": "creeper",
+            "x": 72,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 72,
+            "y": "head"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The hen sat on the hat.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16
+          },
+          {
+            "who": "hero",
+            "x": 37
+          },
+          {
+            "who": "creeper",
+            "x": 72,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 72,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "hen",
+            "x": 72,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not my hat!\" said Dad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16,
+            "pose": "jump"
+          },
+          {
+            "who": "hero",
+            "x": 37
+          },
+          {
+            "who": "creeper",
+            "x": 72,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 72,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "hen",
+            "x": 72,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not my hat!",
+            "near": "dad",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper had a hen hat!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "dad",
+            "x": 16
+          },
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "jump"
+          },
+          {
+            "who": "creeper",
+            "x": 72,
+            "scale": 0.6
+          }
+        ],
+        "props": [
+          {
+            "what": "hat",
+            "x": 72,
+            "y": "head",
+            "id": "hat1"
+          },
+          {
+            "what": "hen",
+            "x": 72,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.6
+          }
+        ],
+        "fx": "sparkle"
+      }
+    }
+  ]
+}

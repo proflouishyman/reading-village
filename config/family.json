@@ -1,0 +1,7 @@
+{
+ "v": 1,
+ "child": { "name": "Sam" },
+ "village_name": "Sam's Village",
+ "home_grown_up": "Dad",
+ "away_label": "Mom's house"
+}

@@ -1,0 +1,4115 @@
+{
+ "v": 1,
+ "enabled": false,
+ "mc_dir": "~/minecraft-server",
+ "screen_session": "minecraft",
+ "player": "PlayerName",
+ "chests": [
+  {
+   "x": 100,
+   "y": 68,
+   "z": 100
+  },
+  {
+   "x": 100,
+   "y": 68,
+   "z": 97
+  },
+  {
+   "x": 97,
+   "y": 68,
+   "z": 100
+  },
+  {
+   "x": 103,
+   "y": 68,
+   "z": 100
+  },
+  {
+   "x": 100,
+   "y": 68,
+   "z": 103
+  },
+  {
+   "x": 97,
+   "y": 68,
+   "z": 97
+  },
+  {
+   "x": 103,
+   "y": 68,
+   "z": 97
+  },
+  {
+   "x": 97,
+   "y": 68,
+   "z": 103
+  },
+  {
+   "x": 103,
+   "y": 68,
+   "z": 103
+  }
+ ],
+ "forbidden": [
+  {
+   "x": 108,
+   "y": 65,
+   "z": 90
+  }
+ ],
+ "shrine": {
+  "x": 100,
+  "y": 68,
+  "z": 100
+ },
+ "earn": {
+  "word_emerald": 1,
+  "story_first_emerald": 5,
+  "story_replay_emerald": 2,
+  "craft_emerald": 1
+ },
+ "trades": [
+  {
+   "id": "wood10",
+   "give": {
+    "wood": 10
+   },
+   "get": {
+    "emerald": 1
+   }
+  },
+  {
+   "id": "stone10",
+   "give": {
+    "stone": 10
+   },
+   "get": {
+    "emerald": 1
+   }
+  },
+  {
+   "id": "coal5",
+   "give": {
+    "coal": 5
+   },
+   "get": {
+    "emerald": 1
+   }
+  },
+  {
+   "id": "iron3",
+   "give": {
+    "iron": 3
+   },
+   "get": {
+    "emerald": 1
+   }
+  },
+  {
+   "id": "gold2",
+   "give": {
+    "gold": 2
+   },
+   "get": {
+    "emerald": 1
+   }
+  },
+  {
+   "id": "diamond1",
+   "give": {
+    "diamond": 1
+   },
+   "get": {
+    "emerald": 2
+   }
+  }
+ ],
+ "craft_items": {
+  "PIG": [
+   {
+    "item": "minecraft:pig_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BAT": [
+   {
+    "item": "minecraft:bat_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BED": [
+   {
+    "item": "minecraft:red_bed",
+    "count": 1
+   }
+  ],
+  "PUP": [
+   {
+    "item": "minecraft:wolf_spawn_egg",
+    "count": 1
+   }
+  ],
+  "HEN": [
+   {
+    "item": "minecraft:chicken_spawn_egg",
+    "count": 1
+   }
+  ],
+  "FOX": [
+   {
+    "item": "minecraft:fox_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SUN": [
+   {
+    "item": "minecraft:glowstone",
+    "count": 4
+   },
+   {
+    "item": "minecraft:sunflower",
+    "count": 1
+   }
+  ],
+  "DAD": [
+   {
+    "item": "minecraft:player_head",
+    "count": 1,
+    "profile": "example_player"
+   }
+  ],
+  "MAP": [
+   {
+    "item": "minecraft:map",
+    "count": 1
+   }
+  ],
+  "MUD": [
+   {
+    "item": "minecraft:mud",
+    "count": 4
+   }
+  ],
+  "FROG": [
+   {
+    "item": "minecraft:frog_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SQUID": [
+   {
+    "item": "minecraft:squid_spawn_egg",
+    "count": 1
+   }
+  ],
+  "PLANK": [
+   {
+    "item": "minecraft:oak_planks",
+    "count": 4
+   }
+  ],
+  "FLINT": [
+   {
+    "item": "minecraft:flint",
+    "count": 1
+   }
+  ],
+  "SAND": [
+   {
+    "item": "minecraft:sand",
+    "count": 8
+   }
+  ],
+  "NEST": [
+   {
+    "item": "minecraft:bee_nest",
+    "count": 1
+   }
+  ],
+  "MILK": [
+   {
+    "item": "minecraft:milk_bucket",
+    "count": 1
+   }
+  ],
+  "FLAG": [
+   {
+    "item": "minecraft:white_banner",
+    "count": 1
+   }
+  ],
+  "GOLD": [
+   {
+    "item": "minecraft:gold_ingot",
+    "count": 4
+   }
+  ],
+  "RAFT": [
+   {
+    "item": "minecraft:bamboo_raft",
+    "count": 1
+   }
+  ],
+  "FISH": [
+   {
+    "item": "minecraft:cod_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SHIP": [
+   {
+    "item": "minecraft:oak_boat",
+    "count": 1
+   }
+  ],
+  "CHEST": [
+   {
+    "item": "minecraft:chest",
+    "count": 1
+   }
+  ],
+  "STICK": [
+   {
+    "item": "minecraft:stick",
+    "count": 8
+   }
+  ],
+  "BRICK": [
+   {
+    "item": "minecraft:brick",
+    "count": 8
+   }
+  ],
+  "CLOCK": [
+   {
+    "item": "minecraft:clock",
+    "count": 1
+   }
+  ],
+  "SHELL": [
+   {
+    "item": "minecraft:nautilus_shell",
+    "count": 1
+   }
+  ],
+  "PICK": [
+   {
+    "item": "minecraft:iron_pickaxe",
+    "count": 1
+   }
+  ],
+  "CHICK": [
+   {
+    "item": "minecraft:chicken_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BLOCK": [
+   {
+    "item": "minecraft:quartz_block",
+    "count": 4
+   }
+  ],
+  "CAKE": [
+   {
+    "item": "minecraft:cake",
+    "count": 1
+   }
+  ],
+  "BONE": [
+   {
+    "item": "minecraft:bone",
+    "count": 8
+   }
+  ],
+  "MULE": [
+   {
+    "item": "minecraft:mule_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SLIME": [
+   {
+    "item": "minecraft:slime_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BLAZE": [
+   {
+    "item": "minecraft:blaze_spawn_egg",
+    "count": 1
+   }
+  ],
+  "STONE": [
+   {
+    "item": "minecraft:stone",
+    "count": 16
+   }
+  ],
+  "VINE": [
+   {
+    "item": "minecraft:vine",
+    "count": 8
+   }
+  ],
+  "GATE": [
+   {
+    "item": "minecraft:oak_fence_gate",
+    "count": 1
+   }
+  ],
+  "NOTE": [
+   {
+    "item": "minecraft:note_block",
+    "count": 1
+   }
+  ],
+  "HIVE": [
+   {
+    "item": "minecraft:beehive",
+    "count": 1
+   }
+  ],
+  "TUBE": [
+   {
+    "item": "minecraft:tube_coral",
+    "count": 2
+   }
+  ],
+  "GOAT": [
+   {
+    "item": "minecraft:goat_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SHEEP": [
+   {
+    "item": "minecraft:sheep_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BOAT": [
+   {
+    "item": "minecraft:birch_boat",
+    "count": 1
+   }
+  ],
+  "BEE": [
+   {
+    "item": "minecraft:bee_spawn_egg",
+    "count": 1
+   }
+  ],
+  "SNOW": [
+   {
+    "item": "minecraft:snowball",
+    "count": 16
+   }
+  ],
+  "COW": [
+   {
+    "item": "minecraft:cow_spawn_egg",
+    "count": 1
+   }
+  ],
+  "TREE": [
+   {
+    "item": "minecraft:oak_sapling",
+    "count": 2
+   }
+  ],
+  "COAL": [
+   {
+    "item": "minecraft:coal",
+    "count": 8
+   }
+  ],
+  "BOOK": [
+   {
+    "item": "minecraft:book",
+    "count": 1
+   }
+  ],
+  "RAIL": [
+   {
+    "item": "minecraft:rail",
+    "count": 16
+   }
+  ],
+  "WOOL": [
+   {
+    "item": "minecraft:white_wool",
+    "count": 4
+   }
+  ],
+  "LEAF": [
+   {
+    "item": "minecraft:oak_leaves",
+    "count": 8
+   }
+  ],
+  "RABBIT": [
+   {
+    "item": "minecraft:rabbit_spawn_egg",
+    "count": 1
+   }
+  ],
+  "PANDA": [
+   {
+    "item": "minecraft:panda_spawn_egg",
+    "count": 1
+   }
+  ],
+  "CAMEL": [
+   {
+    "item": "minecraft:camel_spawn_egg",
+    "count": 1
+   }
+  ],
+  "PIGLIN": [
+   {
+    "item": "minecraft:piglin_spawn_egg",
+    "count": 1
+   }
+  ],
+  "HOGLIN": [
+   {
+    "item": "minecraft:hoglin_spawn_egg",
+    "count": 1
+   }
+  ],
+  "BUCKET": [
+   {
+    "item": "minecraft:bucket",
+    "count": 1
+   }
+  ],
+  "PUMPKIN": [
+   {
+    "item": "minecraft:pumpkin",
+    "count": 1
+   }
+  ],
+  "CACTUS": [
+   {
+    "item": "minecraft:cactus",
+    "count": 4
+   }
+  ],
+  "HELMET": [
+   {
+    "item": "minecraft:iron_helmet",
+    "count": 1
+   }
+  ],
+  "ROCKET": [
+   {
+    "item": "minecraft:firework_rocket",
+    "count": 8
+   }
+  ]
+ },
+ "tiers": {
+  "rare": [
+   {
+    "weight": 10,
+    "label": "3 Diamonds",
+    "items": [
+     {
+      "item": "minecraft:diamond",
+      "count": 3
+     }
+    ],
+    "sprite": "diamond"
+   },
+   {
+    "weight": 10,
+    "label": "8 Emeralds",
+    "items": [
+     {
+      "item": "minecraft:emerald",
+      "count": 8
+     }
+    ],
+    "sprite": "emerald"
+   },
+   {
+    "weight": 8,
+    "label": "3 Golden Apples",
+    "items": [
+     {
+      "item": "minecraft:golden_apple",
+      "count": 3
+     }
+    ],
+    "sprite": "golden_apple"
+   },
+   {
+    "weight": 6,
+    "label": "3 Name Tags",
+    "items": [
+     {
+      "item": "minecraft:name_tag",
+      "count": 3
+     }
+    ],
+    "sprite": "name_tag"
+   },
+   {
+    "weight": 5,
+    "label": "Saddle",
+    "items": [
+     {
+      "item": "minecraft:saddle",
+      "count": 1
+     }
+    ],
+    "sprite": "saddle"
+   },
+   {
+    "weight": 4,
+    "label": "Mending Book",
+    "items": [
+     {
+      "item": "minecraft:enchanted_book",
+      "count": 1,
+      "stored_enchantments": {
+       "minecraft:mending": 1
+      }
+     }
+    ],
+    "sprite": "enchanted_book"
+   },
+   {
+    "weight": 4,
+    "label": "Fortune III Book",
+    "items": [
+     {
+      "item": "minecraft:enchanted_book",
+      "count": 1,
+      "stored_enchantments": {
+       "minecraft:fortune": 3
+      }
+     }
+    ],
+    "sprite": "enchanted_book"
+   },
+   {
+    "weight": 3,
+    "label": "Super Sword",
+    "items": [
+     {
+      "item": "minecraft:diamond_sword",
+      "count": 1,
+      "enchantments": {
+       "minecraft:sharpness": 5,
+       "minecraft:unbreaking": 3
+      }
+     }
+    ],
+    "sprite": "sword"
+   },
+   {
+    "weight": 3,
+    "label": "Super Pickaxe",
+    "items": [
+     {
+      "item": "minecraft:diamond_pickaxe",
+      "count": 1,
+      "enchantments": {
+       "minecraft:efficiency": 5,
+       "minecraft:unbreaking": 3
+      }
+     }
+    ],
+    "sprite": "pickaxe"
+   },
+   {
+    "weight": 4,
+    "label": "Cake and Cookies",
+    "items": [
+     {
+      "item": "minecraft:cake",
+      "count": 1
+     },
+     {
+      "item": "minecraft:cookie",
+      "count": 16
+     }
+    ],
+    "sprite": "cake"
+   },
+   {
+    "weight": 3,
+    "label": "Spawn Egg Pair",
+    "items": [
+     {
+      "item": "minecraft:horse_spawn_egg",
+      "count": 1
+     },
+     {
+      "item": "minecraft:cat_spawn_egg",
+      "count": 1
+     }
+    ],
+    "sprite": "spawn_egg"
+   }
+  ],
+  "epic": [
+   {
+    "weight": 8,
+    "label": "16 Diamonds",
+    "items": [
+     {
+      "item": "minecraft:diamond",
+      "count": 16
+     }
+    ],
+    "sprite": "diamond"
+   },
+   {
+    "weight": 6,
+    "label": "2 Enchanted Golden Apples",
+    "items": [
+     {
+      "item": "minecraft:enchanted_golden_apple",
+      "count": 2
+     }
+    ],
+    "sprite": "golden_apple"
+   },
+   {
+    "weight": 6,
+    "label": "Netherite Ingot",
+    "items": [
+     {
+      "item": "minecraft:netherite_ingot",
+      "count": 1
+     }
+    ],
+    "sprite": "netherite"
+   },
+   {
+    "weight": 5,
+    "label": "Totem of Undying",
+    "items": [
+     {
+      "item": "minecraft:totem_of_undying",
+      "count": 1
+     }
+    ],
+    "sprite": "totem"
+   },
+   {
+    "weight": 4,
+    "label": "Trident",
+    "items": [
+     {
+      "item": "minecraft:trident",
+      "count": 1
+     }
+    ],
+    "sprite": "trident"
+   },
+   {
+    "weight": 3,
+    "label": "Elytra and Rockets",
+    "items": [
+     {
+      "item": "minecraft:elytra",
+      "count": 1
+     },
+     {
+      "item": "minecraft:firework_rocket",
+      "count": 32
+     }
+    ],
+    "sprite": "elytra"
+   },
+   {
+    "weight": 5,
+    "label": "Diamond Chestplate",
+    "items": [
+     {
+      "item": "minecraft:diamond_chestplate",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:unbreaking": 3
+      }
+     }
+    ],
+    "sprite": "chestplate"
+   },
+   {
+    "weight": 5,
+    "label": "Diamond Boots",
+    "items": [
+     {
+      "item": "minecraft:diamond_boots",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:unbreaking": 3,
+       "minecraft:feather_falling": 4
+      }
+     }
+    ],
+    "sprite": "boots"
+   },
+   {
+    "weight": 4,
+    "label": "Mending and Unbreaking Books",
+    "items": [
+     {
+      "item": "minecraft:enchanted_book",
+      "count": 1,
+      "stored_enchantments": {
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:enchanted_book",
+      "count": 1,
+      "stored_enchantments": {
+       "minecraft:unbreaking": 3
+      }
+     }
+    ],
+    "sprite": "enchanted_book"
+   },
+   {
+    "weight": 3,
+    "label": "Netherite Sword",
+    "items": [
+     {
+      "item": "minecraft:netherite_sword",
+      "count": 1,
+      "enchantments": {
+       "minecraft:sharpness": 5,
+       "minecraft:looting": 3,
+       "minecraft:unbreaking": 3
+      }
+     }
+    ],
+    "sprite": "sword"
+   },
+   {
+    "weight": 4,
+    "label": "Panda and Llama Eggs",
+    "items": [
+     {
+      "item": "minecraft:panda_spawn_egg",
+      "count": 1
+     },
+     {
+      "item": "minecraft:llama_spawn_egg",
+      "count": 1
+     }
+    ],
+    "sprite": "spawn_egg"
+   }
+  ],
+  "legendary": [
+   {
+    "weight": 6,
+    "label": "Netherite Armor Set",
+    "items": [
+     {
+      "item": "minecraft:netherite_helmet",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:respiration": 3,
+       "minecraft:aqua_affinity": 1,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_chestplate",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_leggings",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_boots",
+      "count": 1,
+      "enchantments": {
+       "minecraft:protection": 4,
+       "minecraft:feather_falling": 4,
+       "minecraft:depth_strider": 3,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     }
+    ],
+    "sprite": "chestplate"
+   },
+   {
+    "weight": 6,
+    "label": "Netherite Tool Set",
+    "items": [
+     {
+      "item": "minecraft:netherite_sword",
+      "count": 1,
+      "enchantments": {
+       "minecraft:sharpness": 5,
+       "minecraft:looting": 3,
+       "minecraft:fire_aspect": 2,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_pickaxe",
+      "count": 1,
+      "enchantments": {
+       "minecraft:efficiency": 5,
+       "minecraft:fortune": 3,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_axe",
+      "count": 1,
+      "enchantments": {
+       "minecraft:efficiency": 5,
+       "minecraft:sharpness": 5,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:netherite_shovel",
+      "count": 1,
+      "enchantments": {
+       "minecraft:efficiency": 5,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     }
+    ],
+    "sprite": "pickaxe"
+   },
+   {
+    "weight": 4,
+    "label": "Elytra and 64 Rockets",
+    "items": [
+     {
+      "item": "minecraft:elytra",
+      "count": 1,
+      "enchantments": {
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     },
+     {
+      "item": "minecraft:firework_rocket",
+      "count": 64
+     }
+    ],
+    "sprite": "elytra"
+   },
+   {
+    "weight": 5,
+    "label": "2 Totems of Undying",
+    "items": [
+     {
+      "item": "minecraft:totem_of_undying",
+      "count": 1
+     },
+     {
+      "item": "minecraft:totem_of_undying",
+      "count": 1
+     }
+    ],
+    "sprite": "totem"
+   },
+   {
+    "weight": 5,
+    "label": "4 Enchanted Golden Apples",
+    "items": [
+     {
+      "item": "minecraft:enchanted_golden_apple",
+      "count": 4
+     }
+    ],
+    "sprite": "golden_apple"
+   },
+   {
+    "weight": 4,
+    "label": "Beacon and 2 Nether Stars",
+    "items": [
+     {
+      "item": "minecraft:beacon",
+      "count": 1
+     },
+     {
+      "item": "minecraft:nether_star",
+      "count": 2
+     }
+    ],
+    "sprite": "glowstone"
+   },
+   {
+    "weight": 4,
+    "label": "Heart of the Sea and Conduit",
+    "items": [
+     {
+      "item": "minecraft:heart_of_the_sea",
+      "count": 1
+     },
+     {
+      "item": "minecraft:conduit",
+      "count": 1
+     }
+    ],
+    "sprite": "heart_of_sea"
+   },
+   {
+    "weight": 4,
+    "label": "3 Shulker Boxes",
+    "items": [
+     {
+      "item": "minecraft:purple_shulker_box",
+      "count": 1
+     },
+     {
+      "item": "minecraft:cyan_shulker_box",
+      "count": 1
+     },
+     {
+      "item": "minecraft:lime_shulker_box",
+      "count": 1
+     }
+    ],
+    "sprite": "chest"
+   },
+   {
+    "weight": 6,
+    "label": "A Stack of Diamonds",
+    "items": [
+     {
+      "item": "minecraft:diamond",
+      "count": 64
+     }
+    ],
+    "sprite": "diamond"
+   },
+   {
+    "weight": 4,
+    "label": "Trident of Loyalty",
+    "items": [
+     {
+      "item": "minecraft:trident",
+      "count": 1,
+      "enchantments": {
+       "minecraft:loyalty": 3,
+       "minecraft:channeling": 1,
+       "minecraft:impaling": 5,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     }
+    ],
+    "sprite": "trident"
+   },
+   {
+    "weight": 4,
+    "label": "Trident of Riptide",
+    "items": [
+     {
+      "item": "minecraft:trident",
+      "count": 1,
+      "enchantments": {
+       "minecraft:riptide": 3,
+       "minecraft:impaling": 5,
+       "minecraft:unbreaking": 3,
+       "minecraft:mending": 1
+      }
+     }
+    ],
+    "sprite": "trident"
+   },
+   {
+    "weight": 3,
+    "label": "Power Bow and Arrows",
+    "items": [
+     {
+      "item": "minecraft:bow",
+      "count": 1,
+      "enchantments": {
+       "minecraft:power": 5,
+       "minecraft:punch": 2,
+       "minecraft:flame": 1,
+       "minecraft:infinity": 1,
+       "minecraft:unbreaking": 3
+      }
+     },
+     {
+      "item": "minecraft:arrow",
+      "count": 64
+     }
+    ],
+    "sprite": "bow"
+   },
+   {
+    "weight": 3,
+    "label": "Netherite Block",
+    "items": [
+     {
+      "item": "minecraft:netherite_block",
+      "count": 1
+     }
+    ],
+    "sprite": "netherite"
+   }
+  ]
+ },
+ "surprises": {
+  "story_first": "epic",
+  "story_replay_tiers": [
+   "epic",
+   "legendary"
+  ],
+  "streak10": "rare",
+  "adventure_done": "epic"
+ },
+ "village": {
+  "levels": {
+   "names": [
+    "Novice",
+    "Apprentice",
+    "Journeyman",
+    "Expert",
+    "Master"
+   ],
+   "thresholds": [
+    0,
+    30,
+    80,
+    160,
+    300
+   ]
+  },
+  "points": {
+   "word": 1,
+   "story_first": 10,
+   "letter_mastered": 5
+  },
+  "bell_every_points": 40,
+  "promotions": {
+   "spent_thresholds": [
+    10,
+    25,
+    45,
+    70,
+    100
+   ],
+   "then_every": 40
+  },
+  "professions": [
+   {
+    "id": "librarian",
+    "name": "Librarian",
+    "job_block_sprite": "lectern",
+    "job_block_item": "minecraft:lectern",
+    "unlock_emeralds": 20,
+    "offers": [
+     {
+      "id": "lib_nametag",
+      "label": "Name Tags",
+      "sprite": "name_tag",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:name_tag",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "lib_shelves",
+      "label": "Bookshelves",
+      "sprite": "bookshelf",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:bookshelf",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "lib_book_quill",
+      "label": "Book and Quill",
+      "sprite": "book",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:writable_book",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "lib_unbreaking3",
+      "label": "Unbreaking III Book",
+      "sprite": "enchanted_book",
+      "price": 5,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_efficiency5",
+      "label": "Efficiency V Book",
+      "sprite": "enchanted_book",
+      "price": 6,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:efficiency": 5
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_protection4",
+      "label": "Protection IV Book",
+      "sprite": "enchanted_book",
+      "price": 6,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:protection": 4
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_fortune3",
+      "label": "Fortune III Book",
+      "sprite": "enchanted_book",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:fortune": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_looting3",
+      "label": "Looting III Book",
+      "sprite": "enchanted_book",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:looting": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_sharpness5",
+      "label": "Sharpness V Book",
+      "sprite": "enchanted_book",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:sharpness": 5
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_silk_touch",
+      "label": "Silk Touch Book",
+      "sprite": "enchanted_book",
+      "price": 8,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:silk_touch": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_power5",
+      "label": "Power V Book",
+      "sprite": "enchanted_book",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:power": 5
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_feather4",
+      "label": "Feather Falling IV Book",
+      "sprite": "enchanted_book",
+      "price": 7,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:feather_falling": 4
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_thorns3",
+      "label": "Thorns III Book",
+      "sprite": "enchanted_book",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:thorns": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_respiration3",
+      "label": "Respiration III Book",
+      "sprite": "enchanted_book",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:respiration": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_sweeping3",
+      "label": "Sweeping Edge III Book",
+      "sprite": "enchanted_book",
+      "price": 9,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:sweeping_edge": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_mending",
+      "label": "Mending Book",
+      "sprite": "enchanted_book",
+      "price": 12,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:mending": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_frost_walker",
+      "label": "Frost Walker II Book",
+      "sprite": "enchanted_book",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:frost_walker": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "lib_book_pair",
+      "label": "Mending and Unbreaking",
+      "sprite": "enchanted_book",
+      "price": 18,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:mending": 1
+        }
+       },
+       {
+        "item": "minecraft:enchanted_book",
+        "count": 1,
+        "stored_enchantments": {
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "armorer",
+    "name": "Armorer",
+    "job_block_sprite": "blast_furnace",
+    "job_block_item": "minecraft:blast_furnace",
+    "unlock_emeralds": 25,
+    "offers": [
+     {
+      "id": "arm_iron_boots",
+      "label": "Iron Boots",
+      "sprite": "boots",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:iron_boots",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_iron_helmet",
+      "label": "Iron Helmet",
+      "sprite": "helmet",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:iron_helmet",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_shield",
+      "label": "Shield",
+      "sprite": "shield",
+      "price": 4,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:shield",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "arm_iron_legs",
+      "label": "Iron Leggings",
+      "sprite": "leggings",
+      "price": 5,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:iron_leggings",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_iron_chest",
+      "label": "Iron Chestplate",
+      "sprite": "chestplate",
+      "price": 6,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:iron_chestplate",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_diamond_boots",
+      "label": "Diamond Boots",
+      "sprite": "boots",
+      "price": 8,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_boots",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 3,
+         "minecraft:unbreaking": 2,
+         "minecraft:feather_falling": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_diamond_helmet",
+      "label": "Diamond Helmet",
+      "sprite": "helmet",
+      "price": 8,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_helmet",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 3,
+         "minecraft:unbreaking": 2,
+         "minecraft:respiration": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_diamond_legs",
+      "label": "Diamond Leggings",
+      "sprite": "leggings",
+      "price": 10,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:diamond_leggings",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_diamond_chest",
+      "label": "Diamond Chestplate",
+      "sprite": "chestplate",
+      "price": 12,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:diamond_chestplate",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_turtle",
+      "label": "Turtle Shell Helmet",
+      "sprite": "helmet",
+      "price": 9,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:turtle_helmet",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 3,
+         "minecraft:respiration": 3,
+         "minecraft:aqua_affinity": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_nether_helmet",
+      "label": "Netherite Helmet",
+      "sprite": "helmet",
+      "price": 14,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_helmet",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3,
+         "minecraft:respiration": 3,
+         "minecraft:aqua_affinity": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_nether_chest",
+      "label": "Netherite Chestplate",
+      "sprite": "chestplate",
+      "price": 20,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_chestplate",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_nether_legs",
+      "label": "Netherite Leggings",
+      "sprite": "leggings",
+      "price": 18,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_leggings",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "arm_nether_boots",
+      "label": "Netherite Boots",
+      "sprite": "boots",
+      "price": 14,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_boots",
+        "count": 1,
+        "enchantments": {
+         "minecraft:protection": 4,
+         "minecraft:unbreaking": 3,
+         "minecraft:feather_falling": 4
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "weaponsmith",
+    "name": "Weaponsmith",
+    "job_block_sprite": "grindstone",
+    "job_block_item": "minecraft:grindstone",
+    "unlock_emeralds": 25,
+    "offers": [
+     {
+      "id": "wpn_iron_axe",
+      "label": "Iron Axe",
+      "sprite": "axe",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:iron_axe",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wpn_stone_sword",
+      "label": "Stone Sword",
+      "sprite": "sword",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:stone_sword",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wpn_iron_sword",
+      "label": "Iron Sword",
+      "sprite": "sword",
+      "price": 5,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:iron_sword",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_arrows",
+      "label": "Arrows",
+      "sprite": "arrow",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:arrow",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "wpn_diamond_axe",
+      "label": "Diamond Axe",
+      "sprite": "axe",
+      "price": 8,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_axe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 3,
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_diamond_sword",
+      "label": "Diamond Sword",
+      "sprite": "sword",
+      "price": 8,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 3,
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_super_sword",
+      "label": "Super Diamond Sword",
+      "sprite": "sword",
+      "price": 11,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:diamond_sword",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 5,
+         "minecraft:unbreaking": 3,
+         "minecraft:looting": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_trident",
+      "label": "Trident",
+      "sprite": "trident",
+      "price": 12,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:trident",
+        "count": 1,
+        "enchantments": {
+         "minecraft:unbreaking": 3,
+         "minecraft:loyalty": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_mace",
+      "label": "Mace",
+      "sprite": "axe",
+      "price": 16,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:mace",
+        "count": 1,
+        "enchantments": {
+         "minecraft:density": 5,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_nether_sword",
+      "label": "Netherite Sword",
+      "sprite": "sword",
+      "price": 18,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_sword",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 5,
+         "minecraft:looting": 3,
+         "minecraft:sweeping_edge": 3,
+         "minecraft:fire_aspect": 2,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "wpn_nether_axe",
+      "label": "Netherite Axe",
+      "sprite": "axe",
+      "price": 18,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_axe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:sharpness": 5,
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "toolsmith",
+    "name": "Toolsmith",
+    "job_block_sprite": "smithing_table",
+    "job_block_item": "minecraft:smithing_table",
+    "unlock_emeralds": 25,
+    "offers": [
+     {
+      "id": "tool_shears",
+      "label": "Shears",
+      "sprite": "shears",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:shears",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_iron_shovel",
+      "label": "Iron Shovel",
+      "sprite": "shovel",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:iron_shovel",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "tool_iron_hoe",
+      "label": "Iron Hoe",
+      "sprite": "hoe",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:iron_hoe",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "tool_iron_pick",
+      "label": "Iron Pickaxe",
+      "sprite": "pickaxe",
+      "price": 4,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:iron_pickaxe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 3,
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_bell",
+      "label": "Bell",
+      "sprite": "bell",
+      "price": 4,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:bell",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "tool_diamond_shovel",
+      "label": "Diamond Shovel",
+      "sprite": "shovel",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_shovel",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_diamond_hoe",
+      "label": "Diamond Hoe",
+      "sprite": "hoe",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:diamond_hoe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 4,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_diamond_pick",
+      "label": "Super Pickaxe",
+      "sprite": "pickaxe",
+      "price": 10,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3,
+         "minecraft:fortune": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_silk_pick",
+      "label": "Silk Touch Pickaxe",
+      "sprite": "pickaxe",
+      "price": 10,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:diamond_pickaxe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3,
+         "minecraft:silk_touch": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_nether_pick",
+      "label": "Netherite Pickaxe",
+      "sprite": "pickaxe",
+      "price": 20,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_pickaxe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3,
+         "minecraft:fortune": 3,
+         "minecraft:mending": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_nether_shovel",
+      "label": "Netherite Shovel",
+      "sprite": "shovel",
+      "price": 16,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_shovel",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "tool_nether_hoe",
+      "label": "Netherite Hoe",
+      "sprite": "hoe",
+      "price": 16,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:netherite_hoe",
+        "count": 1,
+        "enchantments": {
+         "minecraft:efficiency": 5,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "farmer",
+    "name": "Farmer",
+    "job_block_sprite": "composter",
+    "job_block_item": "minecraft:composter",
+    "unlock_emeralds": 15,
+    "offers": [
+     {
+      "id": "farm_bread",
+      "label": "Bread",
+      "sprite": "bread",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:bread",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "farm_pie",
+      "label": "Pumpkin Pie",
+      "sprite": "pie",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:pumpkin_pie",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "farm_carrots",
+      "label": "Golden Carrots",
+      "sprite": "carrot",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:golden_carrot",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "farm_cake",
+      "label": "Cake",
+      "sprite": "cake",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:cake",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "farm_cookies",
+      "label": "Cookies",
+      "sprite": "cookie",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:cookie",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "farm_apples",
+      "label": "Apples",
+      "sprite": "apple",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:apple",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "farm_bonemeal",
+      "label": "Bone Meal",
+      "sprite": "bottle",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:bone_meal",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "farm_carrots_big",
+      "label": "Golden Carrot Feast",
+      "sprite": "carrot",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:golden_carrot",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "farm_honey",
+      "label": "Honey Bottles",
+      "sprite": "bottle",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:honey_bottle",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "farm_melon",
+      "label": "Glistering Melon",
+      "sprite": "apple",
+      "price": 5,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:glistering_melon_slice",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "farm_golden_apples",
+      "label": "Golden Apples",
+      "sprite": "golden_apple",
+      "price": 7,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:golden_apple",
+        "count": 3
+       }
+      ]
+     },
+     {
+      "id": "farm_ega",
+      "label": "Enchanted Golden Apple",
+      "sprite": "golden_apple",
+      "price": 12,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:enchanted_golden_apple",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fletcher",
+    "name": "Fletcher",
+    "job_block_sprite": "fletching_table",
+    "job_block_item": "minecraft:fletching_table",
+    "unlock_emeralds": 20,
+    "offers": [
+     {
+      "id": "fle_arrows",
+      "label": "Arrows",
+      "sprite": "arrow",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:arrow",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "fle_bow",
+      "label": "Bow",
+      "sprite": "bow",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:bow",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fle_flint",
+      "label": "Flint and Feathers",
+      "sprite": "arrow",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:flint",
+        "count": 16
+       },
+       {
+        "item": "minecraft:feather",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "fle_power_bow",
+      "label": "Power Bow",
+      "sprite": "bow",
+      "price": 6,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:bow",
+        "count": 1,
+        "enchantments": {
+         "minecraft:power": 3,
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "fle_spectral",
+      "label": "Spectral Arrows",
+      "sprite": "arrow",
+      "price": 4,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:spectral_arrow",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "fle_tipped_swift",
+      "label": "Arrows of Swiftness",
+      "sprite": "arrow",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:tipped_arrow",
+        "count": 16,
+        "potion": "minecraft:swiftness"
+       }
+      ]
+     },
+     {
+      "id": "fle_tipped_leap",
+      "label": "Arrows of Leaping",
+      "sprite": "arrow",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:tipped_arrow",
+        "count": 16,
+        "potion": "minecraft:leaping"
+       }
+      ]
+     },
+     {
+      "id": "fle_crossbow",
+      "label": "Crossbow",
+      "sprite": "crossbow",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:crossbow",
+        "count": 1,
+        "enchantments": {
+         "minecraft:quick_charge": 2,
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "fle_tipped_heal",
+      "label": "Arrows of Healing",
+      "sprite": "arrow",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:tipped_arrow",
+        "count": 16,
+        "potion": "minecraft:healing"
+       }
+      ]
+     },
+     {
+      "id": "fle_multishot",
+      "label": "Multishot Crossbow",
+      "sprite": "crossbow",
+      "price": 10,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:crossbow",
+        "count": 1,
+        "enchantments": {
+         "minecraft:multishot": 1,
+         "minecraft:quick_charge": 3,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "fle_super_bow",
+      "label": "Super Bow",
+      "sprite": "bow",
+      "price": 14,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:bow",
+        "count": 1,
+        "enchantments": {
+         "minecraft:power": 5,
+         "minecraft:infinity": 1,
+         "minecraft:flame": 1,
+         "minecraft:unbreaking": 3,
+         "minecraft:punch": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "fle_tipped_regen",
+      "label": "Arrows of Regeneration",
+      "sprite": "arrow",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:tipped_arrow",
+        "count": 32,
+        "potion": "minecraft:strong_regeneration"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "cleric",
+    "name": "Cleric",
+    "job_block_sprite": "brewing_stand",
+    "job_block_item": "minecraft:brewing_stand",
+    "unlock_emeralds": 25,
+    "offers": [
+     {
+      "id": "cle_redstone",
+      "label": "Redstone",
+      "sprite": "redstone",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:redstone",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "cle_glowstone",
+      "label": "Glowstone Dust",
+      "sprite": "glowstone",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:glowstone_dust",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "cle_lapis",
+      "label": "Lapis Lazuli",
+      "sprite": "bottle",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:lapis_lazuli",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "cle_xp",
+      "label": "Bottles o' Enchanting",
+      "sprite": "bottle",
+      "price": 4,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:experience_bottle",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "cle_pearls",
+      "label": "Ender Pearls",
+      "sprite": "ender_pearl",
+      "price": 6,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:ender_pearl",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "cle_healing",
+      "label": "Potions of Healing",
+      "sprite": "potion",
+      "price": 6,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:potion",
+        "count": 3,
+        "potion": "minecraft:strong_healing"
+       }
+      ]
+     },
+     {
+      "id": "cle_night",
+      "label": "Potions of Night Vision",
+      "sprite": "potion",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:potion",
+        "count": 3,
+        "potion": "minecraft:long_night_vision"
+       }
+      ]
+     },
+     {
+      "id": "cle_splash_heal",
+      "label": "Splash Healing",
+      "sprite": "potion",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:splash_potion",
+        "count": 4,
+        "potion": "minecraft:strong_healing"
+       }
+      ]
+     },
+     {
+      "id": "cle_fire_res",
+      "label": "Potions of Fire Resistance",
+      "sprite": "potion",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:potion",
+        "count": 3,
+        "potion": "minecraft:long_fire_resistance"
+       }
+      ]
+     },
+     {
+      "id": "cle_blaze",
+      "label": "Blaze Rods",
+      "sprite": "glowstone",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:blaze_rod",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "cle_totem",
+      "label": "Totem of Undying",
+      "sprite": "totem",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:totem_of_undying",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "cle_xp_big",
+      "label": "Mountain of XP",
+      "sprite": "bottle",
+      "price": 12,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:experience_bottle",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "cle_pearls_big",
+      "label": "Pile of Ender Pearls",
+      "sprite": "ender_pearl",
+      "price": 14,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:ender_pearl",
+        "count": 16
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "cartographer",
+    "name": "Cartographer",
+    "job_block_sprite": "cartography_table",
+    "job_block_item": "minecraft:cartography_table",
+    "unlock_emeralds": 20,
+    "offers": [
+     {
+      "id": "car_paper",
+      "label": "Paper",
+      "sprite": "book",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:paper",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "car_map",
+      "label": "Maps",
+      "sprite": "map",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:map",
+        "count": 3
+       }
+      ]
+     },
+     {
+      "id": "car_compass",
+      "label": "Compass",
+      "sprite": "map",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:compass",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_frames",
+      "label": "Item Frames",
+      "sprite": "painting",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:item_frame",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "car_banner_blue",
+      "label": "Blue Banner",
+      "sprite": "banner",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:blue_banner",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "car_banner_red",
+      "label": "Red Banner",
+      "sprite": "banner",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:red_banner",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "car_spyglass",
+      "label": "Spyglass",
+      "sprite": "map",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:spyglass",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_globe",
+      "label": "Globe Banner Pattern",
+      "sprite": "banner",
+      "price": 6,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:globe_banner_pattern",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_creeper_pattern",
+      "label": "Creeper Banner Pattern",
+      "sprite": "banner",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:creeper_banner_pattern",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_clock",
+      "label": "Clock",
+      "sprite": "map",
+      "price": 4,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:clock",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_recovery",
+      "label": "Recovery Compass",
+      "sprite": "map",
+      "price": 12,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:recovery_compass",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "car_lodestone",
+      "label": "Lodestone and Compass",
+      "sprite": "map",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:lodestone",
+        "count": 1
+       },
+       {
+        "item": "minecraft:compass",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "shepherd",
+    "name": "Shepherd",
+    "job_block_sprite": "loom",
+    "job_block_item": "minecraft:loom",
+    "unlock_emeralds": 15,
+    "offers": [
+     {
+      "id": "she_white_wool",
+      "label": "White Wool",
+      "sprite": "wool",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:white_wool",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "she_shears",
+      "label": "Shears",
+      "sprite": "shears",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:shears",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "she_red_bed",
+      "label": "Red Bed",
+      "sprite": "bed",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:red_bed",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "she_color_wool",
+      "label": "Rainbow Wool",
+      "sprite": "wool",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:red_wool",
+        "count": 8
+       },
+       {
+        "item": "minecraft:orange_wool",
+        "count": 8
+       },
+       {
+        "item": "minecraft:yellow_wool",
+        "count": 8
+       },
+       {
+        "item": "minecraft:lime_wool",
+        "count": 8
+       },
+       {
+        "item": "minecraft:light_blue_wool",
+        "count": 8
+       },
+       {
+        "item": "minecraft:purple_wool",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "she_carpets",
+      "label": "Carpets",
+      "sprite": "wool",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:white_carpet",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "she_painting",
+      "label": "Paintings",
+      "sprite": "painting",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:painting",
+        "count": 6
+       }
+      ]
+     },
+     {
+      "id": "she_beds",
+      "label": "Four Beds",
+      "sprite": "bed",
+      "price": 7,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:blue_bed",
+        "count": 1
+       },
+       {
+        "item": "minecraft:green_bed",
+        "count": 1
+       },
+       {
+        "item": "minecraft:yellow_bed",
+        "count": 1
+       },
+       {
+        "item": "minecraft:pink_bed",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "she_dyes",
+      "label": "Dyes",
+      "sprite": "bottle",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:red_dye",
+        "count": 16
+       },
+       {
+        "item": "minecraft:blue_dye",
+        "count": 16
+       },
+       {
+        "item": "minecraft:yellow_dye",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "she_banner",
+      "label": "Rainbow Banner",
+      "sprite": "banner",
+      "price": 5,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:white_banner",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "she_loom",
+      "label": "Loom",
+      "sprite": "wool",
+      "price": 5,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:loom",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "she_black_wool",
+      "label": "Wool Treasure",
+      "sprite": "wool",
+      "price": 8,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:black_wool",
+        "count": 64
+       },
+       {
+        "item": "minecraft:white_wool",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "she_sheep_egg",
+      "label": "Sheep Spawn Egg",
+      "sprite": "spawn_egg",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:sheep_spawn_egg",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "butcher",
+    "name": "Butcher",
+    "job_block_sprite": "smoker",
+    "job_block_item": "minecraft:smoker",
+    "unlock_emeralds": 15,
+    "offers": [
+     {
+      "id": "but_pork",
+      "label": "Cooked Porkchops",
+      "sprite": "meat",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:cooked_porkchop",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "but_chicken",
+      "label": "Cooked Chicken",
+      "sprite": "meat",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:cooked_chicken",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "but_steak",
+      "label": "Steak",
+      "sprite": "meat",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:cooked_beef",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "but_salmon",
+      "label": "Cooked Salmon",
+      "sprite": "fish",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:cooked_salmon",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "but_mutton",
+      "label": "Cooked Mutton",
+      "sprite": "meat",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:cooked_mutton",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "but_rabbit",
+      "label": "Rabbit Stew",
+      "sprite": "meat",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:rabbit_stew",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "but_kelp",
+      "label": "Dried Kelp",
+      "sprite": "meat",
+      "price": 2,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:dried_kelp",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "but_pie",
+      "label": "Pumpkin Pie Party",
+      "sprite": "pie",
+      "price": 4,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:pumpkin_pie",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "but_steak_big",
+      "label": "Steak Mountain",
+      "sprite": "meat",
+      "price": 5,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:cooked_beef",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "but_cake",
+      "label": "Cake Party",
+      "sprite": "cake",
+      "price": 8,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:cake",
+        "count": 3
+       }
+      ]
+     },
+     {
+      "id": "but_golden",
+      "label": "Golden Feast",
+      "sprite": "golden_apple",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:golden_apple",
+        "count": 6
+       },
+       {
+        "item": "minecraft:golden_carrot",
+        "count": 32
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "fisherman",
+    "name": "Fisherman",
+    "job_block_sprite": "barrel",
+    "job_block_item": "minecraft:barrel",
+    "unlock_emeralds": 15,
+    "offers": [
+     {
+      "id": "fis_rod",
+      "label": "Fishing Rod",
+      "sprite": "rod",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:fishing_rod",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_boat",
+      "label": "Boat",
+      "sprite": "boat",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:oak_boat",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_cod",
+      "label": "Bucket of Cod",
+      "sprite": "fish_bucket",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:cod_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_salmon",
+      "label": "Bucket of Salmon",
+      "sprite": "fish_bucket",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:salmon_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_tropical",
+      "label": "Bucket of Tropical Fish",
+      "sprite": "fish_bucket",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:tropical_fish_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_puffer",
+      "label": "Bucket of Pufferfish",
+      "sprite": "fish_bucket",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:pufferfish_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_water",
+      "label": "Water Buckets",
+      "sprite": "bucket",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:water_bucket",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "fis_good_rod",
+      "label": "Lucky Rod",
+      "sprite": "rod",
+      "price": 6,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "enchantments": {
+         "minecraft:luck_of_the_sea": 3,
+         "minecraft:lure": 3,
+         "minecraft:unbreaking": 3
+        }
+       }
+      ]
+     },
+     {
+      "id": "fis_chest_boat",
+      "label": "Chest Boat",
+      "sprite": "boat",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:cherry_chest_boat",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_axolotl",
+      "label": "Bucket of Axolotl",
+      "sprite": "fish_bucket",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:axolotl_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_turtle",
+      "label": "Turtle Spawn Egg",
+      "sprite": "spawn_egg",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:turtle_spawn_egg",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "fis_best_rod",
+      "label": "Master Rod",
+      "sprite": "rod",
+      "price": 12,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:fishing_rod",
+        "count": 1,
+        "enchantments": {
+         "minecraft:luck_of_the_sea": 3,
+         "minecraft:lure": 3,
+         "minecraft:unbreaking": 3,
+         "minecraft:mending": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "fis_conduit",
+      "label": "Conduit",
+      "sprite": "nautilus",
+      "price": 18,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:conduit",
+        "count": 1
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "mason",
+    "name": "Mason",
+    "job_block_sprite": "stonecutter",
+    "job_block_item": "minecraft:stonecutter",
+    "unlock_emeralds": 20,
+    "offers": [
+     {
+      "id": "mas_bricks",
+      "label": "Bricks",
+      "sprite": "brick",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:bricks",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "mas_stone_bricks",
+      "label": "Stone Bricks",
+      "sprite": "stone",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:stone_bricks",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "mas_terracotta",
+      "label": "Terracotta",
+      "sprite": "terracotta",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:terracotta",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "mas_polished",
+      "label": "Polished Stone",
+      "sprite": "stone",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:polished_andesite",
+        "count": 32
+       },
+       {
+        "item": "minecraft:polished_diorite",
+        "count": 32
+       },
+       {
+        "item": "minecraft:polished_granite",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "mas_dripstone",
+      "label": "Dripstone",
+      "sprite": "dripstone",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:dripstone_block",
+        "count": 32
+       },
+       {
+        "item": "minecraft:pointed_dripstone",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "mas_quartz",
+      "label": "Quartz",
+      "sprite": "quartz",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:quartz",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "mas_glazed",
+      "label": "Glazed Terracotta",
+      "sprite": "terracotta",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:red_glazed_terracotta",
+        "count": 8
+       },
+       {
+        "item": "minecraft:blue_glazed_terracotta",
+        "count": 8
+       },
+       {
+        "item": "minecraft:yellow_glazed_terracotta",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "mas_pillars",
+      "label": "Quartz Pillars",
+      "sprite": "quartz",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:quartz_pillar",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "mas_amethyst",
+      "label": "Amethyst",
+      "sprite": "quartz",
+      "price": 7,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:amethyst_block",
+        "count": 16
+       },
+       {
+        "item": "minecraft:amethyst_shard",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "mas_quartz_big",
+      "label": "Quartz Palace",
+      "sprite": "quartz",
+      "price": 9,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:quartz_block",
+        "count": 64
+       },
+       {
+        "item": "minecraft:quartz_bricks",
+        "count": 64
+       }
+      ]
+     },
+     {
+      "id": "mas_color_terracotta",
+      "label": "Rainbow Terracotta",
+      "sprite": "terracotta",
+      "price": 9,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:red_terracotta",
+        "count": 32
+       },
+       {
+        "item": "minecraft:orange_terracotta",
+        "count": 32
+       },
+       {
+        "item": "minecraft:yellow_terracotta",
+        "count": 32
+       },
+       {
+        "item": "minecraft:blue_terracotta",
+        "count": 32
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "leatherworker",
+    "name": "Leatherworker",
+    "job_block_sprite": "cauldron",
+    "job_block_item": "minecraft:cauldron",
+    "unlock_emeralds": 30,
+    "offers": [
+     {
+      "id": "lea_leather",
+      "label": "Leather",
+      "sprite": "bundle",
+      "price": 1,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:leather",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "lea_cap",
+      "label": "Leather Cap",
+      "sprite": "helmet",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:leather_helmet",
+        "count": 1,
+        "enchantments": {
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "lea_tunic",
+      "label": "Leather Tunic",
+      "sprite": "chestplate",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:leather_chestplate",
+        "count": 1,
+        "enchantments": {
+         "minecraft:unbreaking": 2
+        }
+       }
+      ]
+     },
+     {
+      "id": "lea_saddle",
+      "label": "Saddle",
+      "sprite": "saddle",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:saddle",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_horse_leather",
+      "label": "Leather Horse Armor",
+      "sprite": "horse_armor",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:leather_horse_armor",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_bundle",
+      "label": "Bundle",
+      "sprite": "bundle",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:bundle",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_horse_iron",
+      "label": "Iron Horse Armor",
+      "sprite": "horse_armor",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:iron_horse_armor",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_lead",
+      "label": "Leads",
+      "sprite": "bundle",
+      "price": 2,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:lead",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "lea_horse_gold",
+      "label": "Golden Horse Armor",
+      "sprite": "horse_armor",
+      "price": 7,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:golden_horse_armor",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_horse_egg",
+      "label": "Horse Spawn Egg",
+      "sprite": "spawn_egg",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:horse_spawn_egg",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_wolf_armor",
+      "label": "Wolf Armor",
+      "sprite": "horse_armor",
+      "price": 8,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:wolf_armor",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_horse_diamond",
+      "label": "Diamond Horse Armor",
+      "sprite": "horse_armor",
+      "price": 10,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:diamond_horse_armor",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "lea_elytra",
+      "label": "Elytra",
+      "sprite": "elytra",
+      "price": 20,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:elytra",
+        "count": 1,
+        "enchantments": {
+         "minecraft:unbreaking": 3,
+         "minecraft:mending": 1
+        }
+       }
+      ]
+     },
+     {
+      "id": "lea_rockets",
+      "label": "Firework Rockets",
+      "sprite": "arrow",
+      "price": 5,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:firework_rocket",
+        "count": 64
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "wandering_trader",
+    "name": "Wandering Trader",
+    "job_block_sprite": "llama",
+    "requires": "all_professions",
+    "unlock_items": [
+     {
+      "item": "minecraft:wandering_trader_spawn_egg",
+      "count": 1
+     },
+     {
+      "item": "minecraft:trader_llama_spawn_egg",
+      "count": 2
+     }
+    ],
+    "unlock_emeralds": 50,
+    "offers": [
+     {
+      "id": "wan_saplings",
+      "label": "Saplings",
+      "sprite": "sapling",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:oak_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:spruce_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:birch_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:jungle_sapling",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "wan_more_saplings",
+      "label": "More Saplings",
+      "sprite": "sapling",
+      "price": 2,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:acacia_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:dark_oak_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:cherry_sapling",
+        "count": 8
+       },
+       {
+        "item": "minecraft:mangrove_propagule",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "wan_azalea",
+      "label": "Azaleas",
+      "sprite": "sapling",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:azalea",
+        "count": 4
+       },
+       {
+        "item": "minecraft:flowering_azalea",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "wan_flowers",
+      "label": "Rare Flowers",
+      "sprite": "flower",
+      "price": 3,
+      "min_level": 0,
+      "items": [
+       {
+        "item": "minecraft:blue_orchid",
+        "count": 4
+       },
+       {
+        "item": "minecraft:allium",
+        "count": 4
+       },
+       {
+        "item": "minecraft:cornflower",
+        "count": 4
+       },
+       {
+        "item": "minecraft:lily_of_the_valley",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "wan_coral",
+      "label": "Coral",
+      "sprite": "coral",
+      "price": 4,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:tube_coral",
+        "count": 8
+       },
+       {
+        "item": "minecraft:brain_coral",
+        "count": 8
+       },
+       {
+        "item": "minecraft:bubble_coral",
+        "count": 8
+       },
+       {
+        "item": "minecraft:fire_coral",
+        "count": 8
+       },
+       {
+        "item": "minecraft:horn_coral",
+        "count": 8
+       }
+      ]
+     },
+     {
+      "id": "wan_lichen",
+      "label": "Glow Lichen",
+      "sprite": "lichen",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:glow_lichen",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "wan_dripstone",
+      "label": "Pointed Dripstone",
+      "sprite": "dripstone",
+      "price": 3,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:pointed_dripstone",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "wan_lily",
+      "label": "Lily Pads and Bamboo",
+      "sprite": "sapling",
+      "price": 2,
+      "min_level": 1,
+      "items": [
+       {
+        "item": "minecraft:lily_pad",
+        "count": 16
+       },
+       {
+        "item": "minecraft:bamboo",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "wan_nautilus",
+      "label": "Nautilus Shells",
+      "sprite": "nautilus",
+      "price": 6,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:nautilus_shell",
+        "count": 2
+       }
+      ]
+     },
+     {
+      "id": "wan_blue_ice",
+      "label": "Blue Ice",
+      "sprite": "ice",
+      "price": 5,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:blue_ice",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "wan_packed_ice",
+      "label": "Packed Ice",
+      "sprite": "ice",
+      "price": 3,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:packed_ice",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "wan_pumpkins",
+      "label": "Pumpkins",
+      "sprite": "pumpkin",
+      "price": 3,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:pumpkin",
+        "count": 16
+       },
+       {
+        "item": "minecraft:carved_pumpkin",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "wan_pickles",
+      "label": "Sea Pickles",
+      "sprite": "sea_pickle",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:sea_pickle",
+        "count": 16
+       }
+      ]
+     },
+     {
+      "id": "wan_tropical",
+      "label": "Tropical Fish Bucket",
+      "sprite": "fish_bucket",
+      "price": 4,
+      "min_level": 2,
+      "items": [
+       {
+        "item": "minecraft:tropical_fish_bucket",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_wither_rose",
+      "label": "Wither Rose",
+      "sprite": "flower",
+      "price": 6,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:wither_rose",
+        "count": 2
+       },
+       {
+        "item": "minecraft:torchflower",
+        "count": 4
+       },
+       {
+        "item": "minecraft:pitcher_plant",
+        "count": 4
+       }
+      ]
+     },
+     {
+      "id": "wan_moss",
+      "label": "Moss and Mud",
+      "sprite": "sapling",
+      "price": 4,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:moss_block",
+        "count": 32
+       },
+       {
+        "item": "minecraft:mud",
+        "count": 32
+       },
+       {
+        "item": "minecraft:clay_ball",
+        "count": 32
+       }
+      ]
+     },
+     {
+      "id": "wan_sniffer",
+      "label": "Sniffer Egg",
+      "sprite": "sniffer_egg",
+      "price": 20,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:sniffer_egg",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_heart",
+      "label": "Heart of the Sea",
+      "sprite": "heart_of_sea",
+      "price": 20,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:heart_of_the_sea",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_disc_cat",
+      "label": "Music Disc: Cat",
+      "sprite": "music_disc",
+      "price": 12,
+      "min_level": 3,
+      "items": [
+       {
+        "item": "minecraft:music_disc_cat",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_disc_pigstep",
+      "label": "Music Disc: Pigstep",
+      "sprite": "music_disc",
+      "price": 22,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:music_disc_pigstep",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_disc_otherside",
+      "label": "Music Disc: Otherside",
+      "sprite": "music_disc",
+      "price": 22,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:music_disc_otherside",
+        "count": 1
+       }
+      ]
+     },
+     {
+      "id": "wan_trial_keys",
+      "label": "Trial Keys",
+      "sprite": "key",
+      "price": 25,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:trial_key",
+        "count": 3
+       }
+      ]
+     },
+     {
+      "id": "wan_sniffer_pair",
+      "label": "Two Sniffer Eggs",
+      "sprite": "sniffer_egg",
+      "price": 35,
+      "min_level": 4,
+      "items": [
+       {
+        "item": "minecraft:sniffer_egg",
+        "count": 2
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

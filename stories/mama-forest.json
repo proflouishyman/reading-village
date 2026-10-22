@@ -1,0 +1,939 @@
+{
+  "v": 1,
+  "id": "mama-forest",
+  "title": "Mama and the Lost Bunny",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "m",
+    "b",
+    "d"
+  ],
+  "pages": [
+    {
+      "text": "Mama and Sam had a tent.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 26,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 70,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "tent",
+            "x": 50,
+            "scale": 0.8
+          },
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          },
+          {
+            "what": "tree",
+            "x": 89,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam went on a trek.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          },
+          {
+            "what": "pine",
+            "x": 91,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Look at the red dots!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "mushroom",
+            "x": 80,
+            "scale": 1.6
+          },
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Is it yum?\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "mushroom",
+            "x": 82,
+            "scale": 1.6
+          },
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Is it yum?",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"No, no, no!\" said Mama.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "mushroom",
+            "x": 82,
+            "scale": 1.6
+          },
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "No, no, no!",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Hoot, hoot!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "tree",
+            "x": 84,
+            "id": "t1"
+          },
+          {
+            "what": "owl",
+            "x": 84,
+            "y": "on",
+            "on": "t1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Hoot, hoot!",
+            "near": "t1",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam went on and on.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          },
+          {
+            "what": "pine",
+            "x": 91,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "A bunny sat. It was sad.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 52,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 82,
+            "pose": "sit",
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Look!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 52,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 82,
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Look!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"It is lost,\" said Mama.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 52,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 82,
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "It is lost.",
+            "near": "mama",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Help the bunny!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 52,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 82,
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Help the bunny!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Hop, hop, hop!",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 28,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 58,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 87,
+            "pose": "jump",
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Hop, hop, hop!",
+            "near": "b"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam ran and ran.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 28,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 58,
+            "pose": "run",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 87,
+            "pose": "jump",
+            "id": "b"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "A big bunny sat by a log.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 14,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 50,
+            "id": "b",
+            "scale": 0.9,
+            "flip": true
+          },
+          {
+            "who": "bunny",
+            "x": 70,
+            "id": "b2",
+            "scale": 1.4,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 89,
+            "scale": 0.6
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Mama!\" said the bunny.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 14,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 50,
+            "id": "b",
+            "scale": 0.9,
+            "flip": true
+          },
+          {
+            "who": "bunny",
+            "x": 70,
+            "id": "b2",
+            "scale": 1.4,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 89,
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mama!",
+            "near": "b",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "The bunnies had a hug.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 14,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 32,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          },
+          {
+            "who": "bunny",
+            "x": 50,
+            "id": "b",
+            "scale": 0.9,
+            "flip": true
+          },
+          {
+            "who": "bunny",
+            "x": 70,
+            "id": "b2",
+            "scale": 1.4,
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "log",
+            "x": 89,
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "\"We did it!\" said Sam.",
+      "art": {
+        "bg": "grass",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 25,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "jump",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "We did it!",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Then the sun set.",
+      "art": {
+        "bg": "sunset",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "pine",
+            "x": 9,
+            "scale": 0.8
+          },
+          {
+            "what": "pine",
+            "x": 91,
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam sat at the camp.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 42
+          },
+          {
+            "what": "tent",
+            "x": 90,
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "Pop, pop, pop!",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 42
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Pop, pop, pop!",
+            "near": "c"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was hot at the camp.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 42
+          }
+        ]
+      }
+    },
+    {
+      "text": "Hoot, hoot!",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 22,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "sit",
+            "scale": 0.9,
+            "id": "c",
+            "flip": true
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 42
+          },
+          {
+            "what": "tree",
+            "x": 90,
+            "id": "t1",
+            "scale": 0.8
+          },
+          {
+            "what": "owl",
+            "x": 90,
+            "y": "on",
+            "on": "t1"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Hoot, hoot!",
+            "near": "t1",
+            "style": "say"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Mama and Sam had a big hug.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 44,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 60,
+            "pose": "hug",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 84
+          }
+        ],
+        "fx": [
+          "sparkle"
+        ]
+      }
+    },
+    {
+      "text": "\"Mama, I had fun,\" said Sam.",
+      "art": {
+        "bg": "night",
+        "actors": [
+          {
+            "who": "mama",
+            "x": 30,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "mama"
+          },
+          {
+            "who": "hero",
+            "x": 62,
+            "pose": "stand",
+            "scale": 0.9,
+            "id": "c"
+          }
+        ],
+        "props": [
+          {
+            "what": "campfire",
+            "x": 84
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Mama, I had fun.",
+            "near": "c",
+            "style": "say"
+          }
+        ]
+      }
+    }
+  ]
+}

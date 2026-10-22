@@ -1,0 +1,1309 @@
+{
+  "v": 1,
+  "id": "fish-ship",
+  "title": "Sam and the Big Tug",
+  "subtitle": "A Minecraft Tale",
+  "focus_letters": [
+    "b",
+    "d",
+    "p",
+    "w"
+  ],
+  "pages": [
+    {
+      "text": "Sam and Dad sat on a ship.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad had a fish rod.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a fish rod.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 37,
+            "y": "held",
+            "by": "hero",
+            "scale": 0.5
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Fish, fish, fish!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "fish"
+          },
+          {
+            "what": "fish",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Fish, fish, fish!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Tug, tug, tug!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "fish"
+          },
+          {
+            "what": "fish",
+            "x": 88,
+            "y": "water",
+            "scale": 0.6
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "tug, tug, tug!",
+            "near": "fish",
+            "side": "above",
+            "size": 7
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I got a fish!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "fish"
+          },
+          {
+            "what": "fish",
+            "x": 86,
+            "y": "air",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I got a fish!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a wet sock.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "sock"
+          },
+          {
+            "what": "sock",
+            "x": 86,
+            "y": "water",
+            "scale": 1.2
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "sock"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A sock is not a fish!\"",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "sock"
+          },
+          {
+            "what": "sock",
+            "x": 86,
+            "y": "water",
+            "scale": 1.2
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A sock is not a fish!",
+            "near": "hero",
+            "style": "say",
+            "side": "left",
+            "size": 6
+          }
+        ]
+      }
+    },
+    {
+      "text": "Tug, tug, tug!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "splash_big"
+          },
+          {
+            "what": "splash_big",
+            "x": 84,
+            "y": "water"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "tug, tug, tug!",
+            "near": "splash_big",
+            "side": "above",
+            "size": 8
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I got a fish!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "fish"
+          },
+          {
+            "what": "splash_big",
+            "x": 86,
+            "y": "water"
+          },
+          {
+            "what": "fish",
+            "x": 86,
+            "y": "air",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I got a fish!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a pot.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "pot"
+          },
+          {
+            "what": "pot",
+            "x": 86,
+            "y": "water",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "splash",
+            "near": "pot"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"A pot is not a fish!\"",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "pot"
+          },
+          {
+            "what": "pot",
+            "x": 86,
+            "y": "water",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "A pot is not a fish!",
+            "near": "hero",
+            "style": "say",
+            "side": "left",
+            "size": 6
+          }
+        ]
+      }
+    },
+    {
+      "text": "Tug, tug, tug!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "splash_big"
+          },
+          {
+            "what": "splash_big",
+            "x": 84,
+            "y": "water",
+            "scale": 1.0
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "tug, tug, tug!",
+            "near": "splash_big",
+            "side": "above",
+            "size": 8
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I got a fish!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "raft"
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I got a fish!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "It was a Creeper on a raft!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "raft"
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISSSS!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "raft"
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISSSS!",
+            "near": "creeper",
+            "side": "above"
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Not the Creeper!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "rod",
+            "x": 64,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.65,
+            "line_to": "raft"
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Not the Creeper!",
+            "near": "dad",
+            "style": "say",
+            "side": "right"
+          }
+        ]
+      }
+    },
+    {
+      "text": "Sam had a big fish.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "fish",
+            "x": 37,
+            "y": "held",
+            "by": "hero",
+            "scale": 1.0,
+            "angle": -50
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"Here, Creeper!\" said Sam.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "fish",
+            "x": 37,
+            "y": "held",
+            "by": "hero",
+            "scale": 1.0,
+            "angle": -50
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Here, Creeper!",
+            "near": "hero",
+            "style": "say",
+            "side": "left",
+            "size": 6
+          }
+        ]
+      }
+    },
+    {
+      "text": "The Creeper had the fish.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "fish",
+            "x": 88,
+            "y": "held",
+            "by": "creeper",
+            "scale": 0.8
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ]
+      }
+    },
+    {
+      "text": "HISS... HISS... ACHOO!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 64,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "fish",
+            "x": 88,
+            "y": "held",
+            "by": "creeper",
+            "scale": 0.8
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "HISS... HISS... ACHOO!",
+            "near": "creeper",
+            "side": "above",
+            "size": 5
+          }
+        ]
+      }
+    },
+    {
+      "text": "Dad did a big flop!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 13,
+            "pose": "fall",
+            "scale": 0.6
+          },
+          {
+            "who": "creeper",
+            "x": 88,
+            "pose": "in",
+            "flip": true,
+            "scale": 0.5,
+            "in": "raft"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "raft",
+            "x": 88,
+            "y": "water",
+            "scale": 0.55
+          },
+          {
+            "what": "fish",
+            "x": 88,
+            "y": "held",
+            "by": "creeper",
+            "scale": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "text": "SPLASH!",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 37,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 13,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "splash_big"
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 50,
+            "y": "water"
+          },
+          {
+            "what": "splash_big",
+            "x": 13,
+            "y": "water"
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "SPLASH!",
+            "near": "splash_big",
+            "side": "right",
+            "size": 6
+          }
+        ]
+      }
+    },
+    {
+      "text": "Up went Dad, wet and glum.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 19,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "pose": "up",
+            "scale": 0.62
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 28,
+            "y": "water"
+          },
+          {
+            "what": "hat",
+            "x": 78,
+            "y": "head",
+            "scale": 0.5
+          },
+          {
+            "what": "sock",
+            "x": 60,
+            "y": "air",
+            "scale": 0.9
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "Oh no.",
+            "near": "dad",
+            "style": "say",
+            "side": "left"
+          }
+        ]
+      }
+    },
+    {
+      "text": "A wet sock sat on his hat.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 19,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "scale": 0.62
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 28,
+            "y": "water"
+          },
+          {
+            "what": "hat",
+            "x": 78,
+            "y": "head",
+            "id": "hat1",
+            "scale": 0.55
+          },
+          {
+            "what": "sock",
+            "x": 78,
+            "y": "on",
+            "on": "hat1",
+            "scale": 0.4
+          }
+        ]
+      }
+    },
+    {
+      "text": "\"I got a sock!\" said Dad.",
+      "art": {
+        "bg": "sea",
+        "actors": [
+          {
+            "who": "hero",
+            "x": 19,
+            "pose": "in",
+            "scale": 0.6,
+            "in": "boat"
+          },
+          {
+            "who": "dad",
+            "x": 78,
+            "scale": 0.62
+          }
+        ],
+        "props": [
+          {
+            "what": "boat",
+            "x": 28,
+            "y": "water"
+          },
+          {
+            "what": "hat",
+            "x": 78,
+            "y": "head",
+            "scale": 0.55
+          },
+          {
+            "what": "sock",
+            "x": 78,
+            "y": "held",
+            "by": "dad",
+            "scale": 0.8
+          }
+        ],
+        "fx": [
+          {
+            "fx": "text",
+            "text": "I got a sock!",
+            "near": "dad",
+            "style": "say",
+            "side": "left"
+          }
+        ]
+      }
+    }
+  ]
+}
